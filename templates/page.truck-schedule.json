@@ -1,0 +1,68 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "6971929b-75ca-497b-8d9f-fc24827e9fd3": {
+      "type": "multi-component",
+      "blocks": {
+        "eef3dc57-b7f1-45d3-b96c-23437844381f": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/truck_bbq_Transparent_1_1.jpg",
+            "img_width": 600,
+            "img_width_mbl": 200
+          }
+        },
+        "ddb8b7c8-87b2-42a5-b310-7549af250372": {
+          "type": "title",
+          "settings": {
+            "title": "<p><strong>WHERE'S THE BUTTZ TRUCK?!<\/strong><\/p>",
+            "title_color": "#ffffff",
+            "title_bg_color": "#d90707"
+          }
+        },
+        "f17bac85-ab18-4c44-be47-491a682fe1dd": {
+          "type": "calendar",
+          "settings": {
+            "calendar_app": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-05c546ed-b9f4-4265-acb4-7d7686cceb7b\"><\/div>",
+            "use_custom_width": true,
+            "width": 800
+          }
+        }
+      },
+      "block_order": [
+        "eef3dc57-b7f1-45d3-b96c-23437844381f",
+        "ddb8b7c8-87b2-42a5-b310-7549af250372",
+        "f17bac85-ab18-4c44-be47-491a682fe1dd"
+      ],
+      "settings": {
+        "section_bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "ebcdc166-3008-44ce-9570-752ea2e99e90": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-05c546ed-b9f4-4265-acb4-7d7686cceb7b\"><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "6971929b-75ca-497b-8d9f-fc24827e9fd3",
+    "ebcdc166-3008-44ce-9570-752ea2e99e90"
+  ]
+}

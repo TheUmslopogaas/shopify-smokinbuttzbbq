@@ -1,0 +1,73 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "4854097d-8746-4806-8321-cfe8d1bdf895": {
+      "type": "multi-component",
+      "blocks": {
+        "eabf6f12-c00b-4041-8cf1-e374baf1c79b": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Screenshot_14.png",
+            "img_width": 250,
+            "img_width_mbl": 200
+          }
+        }
+      },
+      "block_order": [
+        "eabf6f12-c00b-4041-8cf1-e374baf1c79b"
+      ],
+      "settings": {
+        "section_bg_color": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "0d8c37ed-1f59-4053-ad72-5a80a7f1c2c8": {
+      "type": "book-the-truck",
+      "disabled": true,
+      "settings": {
+        "section_bg_color": "",
+        "form_field_bg": "",
+        "form_field_txt": "",
+        "heading": " SMOKIN BUTTZ REQUEST FORM",
+        "heading_size": "h1",
+        "padding_top": 20,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "16854241513f2664ce": {
+      "type": "apps",
+      "blocks": {
+        "a97fb313-b7a1-4f50-acb9-1c6e423a3a78": {
+          "type": "shopify:\/\/apps\/powerful-contact-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "{formbuilder:NTMxMA==}"
+          }
+        }
+      },
+      "block_order": [
+        "a97fb313-b7a1-4f50-acb9-1c6e423a3a78"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4854097d-8746-4806-8321-cfe8d1bdf895",
+    "0d8c37ed-1f59-4053-ad72-5a80a7f1c2c8",
+    "16854241513f2664ce"
+  ]
+}

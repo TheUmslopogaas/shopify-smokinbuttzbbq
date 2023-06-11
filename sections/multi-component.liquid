@@ -1,0 +1,412 @@
+{%- style -%}
+
+  {% if section.settings.section_bg_color != blank %}
+    #shopify-section-{{ section.id }} {
+      background-color: {{section.settings.section_bg_color}};
+    }
+  {% endif %}
+  #shopify-section-{{ section.id }} .accordion-individual {
+    width: calc({{ section.settings.col_count }}% - 20px);
+  }
+
+  /* Sectoin Dynamic Spcing */
+  #shopify-section-{{ section.id }} {
+    margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+    margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 750px) {
+    #shopify-section-{{ section.id }} {
+      margin-top: {{ section.settings.margin_top }}px;
+      margin-bottom: {{ section.settings.margin_bottom }}px;
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+
+<div class="multi-component-wrap">
+  {% for block in section.blocks %}
+    {% case block.type %}
+      {% when 'desc' %}
+        <div class="page-width mc-block mc-descBlock {{block.settings.content_alignment}}">
+          {% if block.settings.desc %}
+            <div class="mc-desc">{{ block.settings.desc | replace: '~(', '<span style="color: #d90707">' | replace: ")~", "</span>" }}</div>
+          {% endif %}
+        </div>
+      {% when 'btns' %}
+        <div class="page-width mc-block mc-btnsBlock">
+          {% if block.settings.btn_label_1 != blank %}
+            <a href="{{block.settings.btn_url_1}}" class="custom-btn bs-customBtn {% if block.settings.btn_1_outline %}custom-btn-outlined{% endif %}">{{block.settings.btn_label_1}}</a>
+          {% endif %}
+          {% if block.settings.btn_label_2 != blank %}
+            <a href="{{block.settings.btn_url_2}}" class="custom-btn bs-customBtn {% if block.settings.btn_2_outline %}custom-btn-outlined{% endif %}">{{block.settings.btn_label_2}}</a>
+          {% endif %}
+        </div>
+      {% when 'social' %}
+        <div class="page-width mc-block mc-socialBlock">
+          {% if block.settings.insta_label %}
+            <a href="{{block.settings.insta_link}}" class="mc-social-insta">
+              <img src="https://cdn.shopify.com/s/files/1/0756/6472/0152/files/insta.png" alt="Instagram Logo" loading="lazy">
+              <span>{{ block.settings.insta_label | replace: '~(', '<span style="color: #d90707">' | replace: ")~", "</span>"}}</span>
+            </a>
+          {% endif %}
+          {% if block.settings.fb_label %}
+            <a href="{{block.settings.fb_link}}" class="mc-social-fb">
+              <img src="https://cdn.shopify.com/s/files/1/0756/6472/0152/files/fb.png" alt="Facebook Logo" loading="lazy">
+              <span>{{ block.settings.fb_label | replace: '~(', '<span style="color: #d90707">' | replace: ")~", "</span>"}}</span>
+            </a>
+          {% endif %}
+        </div>
+      {% when 'calendar' %}
+        <div class="page-width mc-block mc-calendarBlock" {% if block.settings.use_custom_width %}style="width: {{block.settings.width}}px"{% endif %}>
+          {{ block.settings.calendar_app }}
+        </div>
+      {% when 'image' %}
+        {% if block.settings.img %}
+          <style>
+            #blockid-{{block.id}} {
+              max-width: {{block.settings.img_width}}px; margin: 0 auto;
+            }
+            @media (max-width: 749px) {
+              #blockid-{{block.id}} {
+                max-width: {{block.settings.img_width_mbl}}px;
+              }                            
+            }
+          </style>
+          <div class="page-width mc-block mc-imgBlock" id="blockid-{{block.id}}">
+            <img src="{{block.settings.img | img_url: 'master'}}" alt="Location Image" loading="lazy">
+          </div>
+        {% endif %}
+      {% when 'list' %}
+        <div class="page-width mc-block mc-listBlock">
+          {% if block.settings.list_count %}
+            <div class="mc-list-number">{{ block.settings.list_count | replace: '~(', '<span style="color: #d90707">' | replace: ")~", "</span>"}}</div>
+          {% endif %}
+          <div class="mc-list">
+            <div class="mc-list-title">Option {{ block.settings.list_count }}</div>
+            <div class="mc-list-desc">{{ block.settings.list_desc | replace: '~(', '<span style="color: #d90707">' | replace: ")~", "</span>"}}</div>
+          </div>
+        </div>        
+      {% when 'catering' %}
+        <div class="page-width mc-block mc-cateringBlock" id="blockid-{{block.id}}">
+          {% if block.settings.meats_desc != blank or block.settings.sides_desc != blank %}
+            <div class="mc-catering-firstRow">
+              <div class="mc-cateringMeats">
+                <div class="mc-cateringTitle">Meats</div>
+                <div class="mc-cateringDesc mc-desc">{{block.settings.meats_desc | replace: '~(', '<span style="color: #d90707">' | replace: ")~", "</span>"}}</div>
+              </div>
+              <div class="mc-cateringSides">
+                <div class="mc-cateringTitle">Sides</div>
+                <div class="mc-cateringDesc mc-desc">{{block.settings.sides_desc | replace: '~(', '<span style="color: #d90707">' | replace: ")~", "</span>"}}</div>
+              </div>
+            </div>
+          {% endif %}
+          {% if block.settings.extras_desc != blank %}
+            <div class="mc-catering-secondRow">
+              <div class="mc-cateringExtras">
+                <div class="mc-cateringTitle">Extras</div>
+                <div class="mc-cateringDesc mc-desc">{{block.settings.extras_desc | replace: '~(', '<span style="color: #d90707">' | replace: ")~", "</span>"}}</div>
+              </div>
+            </div>
+          {% endif %}
+        </div>
+      {% when 'title' %}
+        <div 
+          class="mc-block mc-titleBlock"
+          style="{% if block.settings.title_bg_color %}background-color: {{block.settings.title_bg_color}};{% endif %}">
+          <div 
+            class="page-width mc-title"
+            style="{% if block.settings.title_color %}color: {{block.settings.title_color}};{% endif %}">
+            {{ block.settings.title | replace: '~(', '<span style="color: #d90707">' | replace: ")~", "</span>"}}
+          </div>
+        </div>
+    {% endcase %}
+  {% endfor %}
+</div>
+
+
+
+{% schema %}
+{
+  "name": "Multiple Component",
+  "class": "section section-multi-component",
+  "settings": [
+    {
+      "type": "color",
+      "id": "section_bg_color",
+      "label": "Section BG Color"
+    },
+    {
+      "type": "header",
+      "content": "Section Margin/Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "desc",
+      "name": "Description Block",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "desc",
+          "label": "Description",
+          "default": "<p>The Smokin' Buttz Team is ready to cater your next event. We offer on-site catering straight from the Buttz Truck for any size event. Whether you are having a School Event, Church Event, Neighborhood Block Party, Office Party, Grand Opening, Family Reunion, Birthday Party, Company Lunch, Wedding or any other social or corporate event let Smokin' Buttz be your number one choice for your catering needs.</p>"
+        },
+        {
+          "type": "select",
+          "id": "content_alignment",
+          "options": [
+            {"value": "text-left","label": "Left"},
+            {"value": "text-center","label": "Center"},
+            {"value": "text-right","label": "Right"}
+          ],
+          "default": "text-left",
+          "label": "Content Alignment"
+        }
+      ]
+    },
+    {
+      "type": "btns",
+      "name": "Buttons Block",
+      "settings": [
+        {
+          "type": "url",
+          "id": "btn_url_1",
+          "label": "Button One URL"
+        },
+        {
+          "type": "text",
+          "id": "btn_label_1",
+          "label": "Button One Text",
+          "default": "VIEW MENU"
+        },
+        {
+          "type": "checkbox",
+          "id": "btn_1_outline",
+          "label": "Button One Outlined Style",
+          "default": false
+        },
+        {
+          "type": "url",
+          "id": "btn_url_2",
+          "label": "Button Two URL"
+        },
+        {
+          "type": "text",
+          "id": "btn_label_2",
+          "label": "Button Two Text"
+        },
+        {
+          "type": "checkbox",
+          "id": "btn_2_outline",
+          "label": "Button Two Outlined Style",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "calendar",
+      "name": "Calendar App Block",
+      "settings": [
+        {
+          "type": "html",
+          "id": "calendar_app",
+          "label": "Enter Calendar Embedded Link",
+          "default": "<app-calendar id=\"proj_ixKN9mHUUrQkcaNGvz316\" style=\"max-width: 100%;\"></app-calendar>"
+        },        
+        {
+          "type": "checkbox",
+          "id": "use_custom_width",
+          "label": "Use Custom Width",
+          "default": false
+        },
+        {
+          "type": "range",
+          "id": "width",
+          "min": 100,
+          "max": 1000,
+          "step": 50,
+          "unit": "px",
+          "label": "Calendar Width",
+          "default": 400
+        }
+      ]
+    },
+    {
+      "type": "social",
+      "name": "Social Link Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "fb_label",
+          "label": "Facebook Label",
+          "default": "Smokin' Buttz"
+        },
+        {
+          "type": "url",
+          "id": "fb_url",
+          "label": "Facebook Link"
+        },
+        {
+          "type": "text",
+          "id": "insta_label",
+          "label": "Instagram Label",
+          "default": "@smokinbuttz"
+        },
+        {
+          "type": "url",
+          "id": "insta_url",
+          "label": "Instagram Link"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "Image Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Choose Image"
+        },
+        {
+          "type": "range",
+          "id": "img_width",
+          "min": 100,
+          "max": 1200,
+          "step": 50,
+          "unit": "px",
+          "label": "Max Width (Desktop)",
+          "default": 600
+        },
+        {
+          "type": "range",
+          "id": "img_width_mbl",
+          "min": 50,
+          "max": 600,
+          "step": 10,
+          "unit": "px",
+          "label": "Max Width (Mobile)",
+          "default": 200
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "name": "List Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "list_count",
+          "label": "List Count",
+          "default": "1"
+        },
+        {
+          "type": "richtext",
+          "id": "list_desc",
+          "label": "List Description",
+          "default": "<p>Pulled Pork or Pulled Chicken Sandwich, choice of one side (BBQ Baked Beans, Mesquite Coleslaw or Smokin’ Mac Attack) and Drink $13.00 per person.  Brisket Sandwich an additional $4.00 per person.</p>"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "name": "Full Width Title",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "title",
+          "label": "Full Width Title",
+          "default": "<p>FULL WIDTH TITLE</p>"
+        },
+        {
+          "type": "color",
+          "id": "title_color",
+          "label": "Title Color",
+          "default": "#D90707"
+        },
+        {
+          "type": "color",
+          "id": "title_bg_color",
+          "label": "Title Background Color"
+        }
+      ]
+    },
+    {
+      "type": "catering",
+      "name": "Catering Block",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "meats_desc",
+          "label": "Meats Description",
+          "default": "<p>1lb feeds up to 3 people. Pulled  Pork $13.00 lb. Pulled Chicken $13.00 lb. Beef Brisket (Call for Pricing). Rack of Ribs (Call for Pricing)</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "sides_desc",
+          "label": "Sides Description",
+          "default": "<p>1lb feeds up to 3 people. Pulled  Pork $13.00 lb. Pulled Chicken $13.00 lb. Beef Brisket (Call for Pricing). Rack of Ribs (Call for Pricing)</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "extras_desc",
+          "label": "Extras Description",
+          "default": "<p>1lb feeds up to 3 people. Pulled  Pork $13.00 lb. Pulled Chicken $13.00 lb. Beef Brisket (Call for Pricing). Rack of Ribs (Call for Pricing)</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Multiple Component",
+      "blocks": [
+        {"type": "desc"}
+      ]
+    }
+  ]
+}
+{% endschema %}

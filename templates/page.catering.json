@@ -1,0 +1,184 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "91e8fbf7-3c24-4d5c-929b-e7d30d6c3921": {
+      "type": "banner-slider",
+      "blocks": {
+        "template--19017693430040__91e8fbf7-3c24-4d5c-929b-e7d30d6c3921-1684584854ba187ccd-1": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/catering-bg-overlayed.jpg",
+            "pretitle": "",
+            "pretitle_color": "#d90707",
+            "pretitle_custom_font_size": false,
+            "pretitle_font_size_d": 40,
+            "pretitle_font_size_m": 30,
+            "title": "CATERING",
+            "title_color": "#ffffff",
+            "title_custom_font_size": true,
+            "title_font_size_d": 60,
+            "title_font_size_m": 40,
+            "desc": "",
+            "desc_color": "#111111",
+            "desc_custom_font_size": false,
+            "desc_font_size_d": 25,
+            "desc_font_size_m": 18,
+            "btn_url_1": "#shopify-section-template--19017650274584__0ddbf1d4-e821-4658-931f-93343a7e9ace",
+            "btn_label_1": "FOOD TRUCK",
+            "btn_1_outline": true,
+            "btn_url_2": "#blockid-60cb8708-f6cd-4e4e-b1f9-47d51578eb64",
+            "btn_label_2": "DELIVERY",
+            "btn_2_outline": true,
+            "logo_img": "shopify:\/\/shop_images\/logo.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693430040__91e8fbf7-3c24-4d5c-929b-e7d30d6c3921-1684584854ba187ccd-1"
+      ],
+      "settings": {
+        "use_desk_height": false,
+        "desk_height": 500,
+        "use_mbl_height": true,
+        "mbl_height": 250,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "0ddbf1d4-e821-4658-931f-93343a7e9ace": {
+      "type": "multi-component",
+      "blocks": {
+        "template--19017693430040__0ddbf1d4-e821-4658-931f-93343a7e9ace-1684584936d7167247-0": {
+          "type": "desc",
+          "settings": {
+            "desc": "<p>The Smokin' Buttz Team is ready to cater your next event. We offer on-site catering straight from the Buttz Truck for any size event. Whether you are having a School Event, Church Event, Neighborhood Block Party, Office Party, Grand Opening, Family Reunion, Birthday Party, Company Lunch, Wedding or any other social or corporate event let Smokin' Buttz be your number one choice for your catering needs. <br\/><br\/>There is a minimum guarantee required for Smokin’ Buttz BBQ, LLC to serve at your private event. The minimum is based on the size and time of your event. We charge 9.75 % tax and 20% gratuity for all on-site food truck caterings.  A 50% non-refundable down-payment and signed contract is required to book and confirm your date. The down payment may be paid with cash, credit card or business check.  <br\/><br\/><strong>*Travel Fee- Due to increased gas and propane cost there will be a minimum fee of $100 dollars added to all Food Truck Catering Events for events 30 miles or less of our Lavergne Location.   Any event over 30 miles will be assessed a higher travel fee based on distance.<\/strong><br\/><br\/><strong>​Food Truck Catering<\/strong> has 4 preset menus, but we are more than happy to work with you to design a menu that is based on your preferences. Full food truck menu can be offered for catering events with less than 75 guest.<br\/><\/p>",
+            "content_alignment": "text-left"
+          }
+        },
+        "65ec5afb-6674-4e3d-ae6d-c7a6715251d8": {
+          "type": "list",
+          "settings": {
+            "list_count": "1",
+            "list_desc": "<p>Pulled Pork or Pulled Chicken Sandwich, choice of one side (BBQ Baked Beans, Mesquite Coleslaw or Smokin’ Mac Attack) and Drink $13.00 per person.  Brisket Sandwich an additional $4.00 per person.<\/p>"
+          }
+        },
+        "a43dda09-fc3b-42c9-8645-633a4a4e3f7b": {
+          "type": "list",
+          "settings": {
+            "list_count": "2",
+            "list_desc": "<p>Overloaded Pork or Chicken Nacho and Drink<br\/>$13.00 per person. Add Brisket for an additional $4.00 more per person.<\/p>"
+          }
+        },
+        "0a95d45d-78e0-46b0-bf9f-d188dd27c622": {
+          "type": "list",
+          "settings": {
+            "list_count": "3",
+            "list_desc": "<p>Pulled Pork or Pulled Chicken Sandwich, choice of two sides (BBQ Baked Beans, Mesquite Coleslaw or Smokin’ Mac Attack) and Drink<br\/>$16.00 per person. Brisket Sandwich for an additional $4.00 per person.<\/p>"
+          }
+        },
+        "2a7494b3-4da1-4dee-be1f-a29649ec5dcf": {
+          "type": "list",
+          "settings": {
+            "list_count": "4",
+            "list_desc": "<p>Pulled Pork or Pulled Chicken Sandwich, choice of one side (BBQ Baked Beans, Mesquite Coleslaw or Smokin’ Mac Attack) and Drink<br\/> $13.00 per person.  Brisket Sandwich an additional $4.00 per person.<\/p>"
+          }
+        },
+        "d8b95828-99a5-4a9e-bac0-baa628ec7642": {
+          "type": "btns",
+          "settings": {
+            "btn_url_1": "shopify:\/\/pages\/request-the-truck",
+            "btn_label_1": "BOOK THE TRUCK",
+            "btn_1_outline": false,
+            "btn_url_2": "tel:615-713-2888",
+            "btn_label_2": "CALL THE TRUCK",
+            "btn_2_outline": false
+          }
+        },
+        "0a2a5339-5c6e-4da1-8427-b50c7ec72cb5": {
+          "type": "title",
+          "settings": {
+            "title": "<p>Catering Delivered<\/p>",
+            "title_color": "#121212",
+            "title_bg_color": ""
+          }
+        },
+        "768819b4-0910-4403-bd94-edd863143e81": {
+          "type": "desc",
+          "settings": {
+            "desc": "<p>Don't want the truck and just need a simple catered meal? Let Smokin' Buttz help by choosing our Delivery Catering Option. Delivery Catering requires a 36 hour advance notice. Delivery available for locations within a 25 mile radius of our Lavergne location. Delivery fees apply.<\/p>",
+            "content_alignment": "text-left"
+          }
+        },
+        "d875ad26-fe44-4516-a823-68493b92cd46": {
+          "type": "title",
+          "settings": {
+            "title": "<p><strong>$200 minimum required for delivery<\/strong><\/p>",
+            "title_color": "#d90707",
+            "title_bg_color": ""
+          }
+        },
+        "60cb8708-f6cd-4e4e-b1f9-47d51578eb64": {
+          "type": "catering",
+          "settings": {
+            "meats_desc": "<p><strong>1lb feeds up to 3 people<\/strong><br\/><\/p><p>Pulled Pork $13.00 lb<br\/>Pulled Chicken $13.00 lb<br\/>Beef Brisket (Call for Pricing)<br\/>Rack of Ribs (Call for Pricing)<\/p>",
+            "sides_desc": "<p><strong>1\/2 gallon feeds up to 15 people<\/strong><br\/><\/p><p>Smokin' Mac Attack $25.00<br\/>BBQ Baked Beans $20.00<br\/>Mesquite Coleslaw $20.00<br\/>Green Beans $20.00<\/p><p><strong>1 gallon feeds up to 30 people<\/strong><\/p><p>Smokin’ Mac Attack $50.00<br\/>BBQ Baked Beans $40.00<br\/>Mesquite Coleslaw $40.00<br\/>Green Beans $40.00<\/p>",
+            "extras_desc": "<p>Buns $6.00 dozen (fresh homemade buns)<br\/>Big Jr’s Smokin’ White Sauce (12 oz - serves 10 people) $10.00 a bottle<br\/>Big Jr’s Smokin’ Buttz Sauce (12 oz - serves 10 people) $10.00 a bottle<br\/>Nettie B’s Fruit Tea $10.00 a gallon<br\/>Paper Goods: Plates, Cutlery, Wet Naps, Napkins .75 each per person<br\/>Plastic Tongs and Spoons .49 each<br\/>Chafing Set $10.00 each<\/p>"
+          }
+        },
+        "78aebd95-14d0-4825-b991-6faee07e3351": {
+          "type": "desc",
+          "settings": {
+            "desc": "<p><strong>To place an order for delivery catering please email us <br\/><\/strong><a href=\"mailto:catering@smokinbuttzbbq.com\" title=\"mailto:catering@smokinbuttzbbq.com\"><strong>catering@smokinbuttzbbq.com<\/strong><\/a><strong>.<br\/>50% down- payment required for all delivery catering orders.<br\/>Delivery fees can range from $25.00 to $100.00 depending on distance of location.<\/strong><\/p>",
+            "content_alignment": "text-left"
+          }
+        },
+        "b398dcb6-185f-45b3-b735-a194193ec720": {
+          "type": "btns",
+          "settings": {
+            "btn_url_1": "mailto:catering@smokinbuttzbbq.com",
+            "btn_label_1": "EMAIL TO ORDER",
+            "btn_1_outline": false,
+            "btn_url_2": "",
+            "btn_label_2": "",
+            "btn_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693430040__0ddbf1d4-e821-4658-931f-93343a7e9ace-1684584936d7167247-0",
+        "65ec5afb-6674-4e3d-ae6d-c7a6715251d8",
+        "a43dda09-fc3b-42c9-8645-633a4a4e3f7b",
+        "0a95d45d-78e0-46b0-bf9f-d188dd27c622",
+        "2a7494b3-4da1-4dee-be1f-a29649ec5dcf",
+        "d8b95828-99a5-4a9e-bac0-baa628ec7642",
+        "0a2a5339-5c6e-4da1-8427-b50c7ec72cb5",
+        "768819b4-0910-4403-bd94-edd863143e81",
+        "d875ad26-fe44-4516-a823-68493b92cd46",
+        "60cb8708-f6cd-4e4e-b1f9-47d51578eb64",
+        "78aebd95-14d0-4825-b991-6faee07e3351",
+        "b398dcb6-185f-45b3-b735-a194193ec720"
+      ],
+      "settings": {
+        "section_bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "91e8fbf7-3c24-4d5c-929b-e7d30d6c3921",
+    "0ddbf1d4-e821-4658-931f-93343a7e9ace"
+  ]
+}

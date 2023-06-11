@@ -1,0 +1,198 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "2c33bab7-44ff-4af6-b651-fb7d54a7c6ab": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19017693987096__2c33bab7-44ff-4af6-b651-fb7d54a7c6ab-1684586098e1c9f236-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>GETTING MARRIED?<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19017693987096__2c33bab7-44ff-4af6-b651-fb7d54a7c6ab-1684586098e1c9f236-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Let The Smokin’ Buttz Team be a part of your “I Do BBQ Celebration”.<br\/>We offer a variety of flavorful menu items that you and your guest are sure to remember.<\/p>",
+            "text_style": "body",
+            "use_custom_color": false,
+            "custom_color": "#222222"
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693987096__2c33bab7-44ff-4af6-b651-fb7d54a7c6ab-1684586098e1c9f236-0",
+        "template--19017693987096__2c33bab7-44ff-4af6-b651-fb7d54a7c6ab-1684586098e1c9f236-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_3906e_copy_1_15d7447b-18c7-48de-9df1-47a8717d0b63.webp",
+        "img_url": "",
+        "img_border": false,
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_contain": true,
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e96fccaf-b000-44c7-8c1c-a7f2387710db": {
+      "type": "multi-component",
+      "blocks": {
+        "c3074eef-c104-45a9-a043-7265a0e95c4e": {
+          "type": "title",
+          "settings": {
+            "title": "<p><strong>FOOD TRUCK ON-SITE CATERING<\/strong><\/p>",
+            "title_color": "#ffffff",
+            "title_bg_color": "#d90707"
+          }
+        },
+        "2c718570-3b68-43b3-9937-238db6b95c09": {
+          "type": "list",
+          "settings": {
+            "list_count": "1",
+            "list_desc": "<p>Pulled Pork or Pulled Chicken Sandwich, choice of one side (BBQ Baked Beans, Mesquite Coleslaw or Smokin’ Mac Attack) and Drink for $13.00 per person. Add Sliced Brisket Sandwich for an additional $4.00 per person. (Tax and Gratuity not included in price)<\/p>"
+          }
+        },
+        "740c5dad-0d7a-41fd-88f0-ef62df917844": {
+          "type": "list",
+          "settings": {
+            "list_count": "2",
+            "list_desc": "<p>Overloaded Pork or Chicken Nacho and Drink for $13.00 per person. Brisket option $4.00 more per person.<br\/>(Tax and Gratuity not included in price)<\/p>"
+          }
+        },
+        "9b570289-92a8-4204-985e-04187f979acd": {
+          "type": "list",
+          "settings": {
+            "list_count": "3",
+            "list_desc": "<p>Pulled Pork or Pulled Chicken Sandwich, choice of two sides (BBQ Baked Beans, Mesquite Coleslaw or Smokin’ Mac Attack) and Drink for $16.00 per person. Add Sliced Brisket Sandwich for an additional $4.00 per person. (Tax and Gratuity not included in price)<\/p>"
+          }
+        },
+        "4fb810c2-8d8a-4f84-9561-bc771753fc03": {
+          "type": "list",
+          "settings": {
+            "list_count": "4",
+            "list_desc": "<p>Pulled Pork or Pulled Chicken Sandwich, choice of three sides (BBQ Baked Beans, Mesquite Coleslaw and Smokin’ Mac Attack) and Drink for $19.00 per person. Add Sliced Brisket for an additional $4.00 per person. (Tax and Gratuity not included in price) *Smoke-House Salad option available upon request.<\/p>"
+          }
+        },
+        "34339ae7-ebba-41cd-bfb3-805342794e83": {
+          "type": "btns",
+          "settings": {
+            "btn_url_1": "shopify:\/\/pages\/request-the-truck",
+            "btn_label_1": "BOOK THE TRUCK",
+            "btn_1_outline": false,
+            "btn_url_2": "",
+            "btn_label_2": "",
+            "btn_2_outline": false
+          }
+        },
+        "1e209bd2-f1d5-40f7-8761-c95391ff6114": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/catering-wedding-pic.jpg",
+            "img_width": 400
+          }
+        },
+        "a21b7085-dab3-4392-b0ee-1a50d2b223ef": {
+          "type": "title",
+          "settings": {
+            "title": "<p><strong>BUFFET STYLE CATERING<\/strong><\/p>",
+            "title_color": "#ffffff",
+            "title_bg_color": "#d90707"
+          }
+        },
+        "0e51eaa3-faae-4e38-946a-49122dd89ae6": {
+          "type": "desc",
+          "settings": {
+            "desc": "<p>All buffet style catering includes set-up, clean-up of food table and serving of guests through the buffet line.<br\/>*All prices are per person.<br\/>*9.75% tax and 20% gratuity will be added to all buffet style caterings<br\/>Email for buffet style catering menu and prices<br\/><a href=\"mailto:catering@smokinbuttzbbq.com\" title=\"mailto:catering@smokinbuttzbbq.com\">catering@smokinbuttzbbq.com<\/a><\/p>",
+            "content_alignment": "text-center"
+          }
+        },
+        "be890b3e-ca4d-48b4-8ba9-07ba8abf47a5": {
+          "type": "btns",
+          "settings": {
+            "btn_url_1": "mailto:catering@smokinbuttzbbq.com",
+            "btn_label_1": "EMAIL US NOW!",
+            "btn_1_outline": false,
+            "btn_url_2": "",
+            "btn_label_2": "",
+            "btn_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "c3074eef-c104-45a9-a043-7265a0e95c4e",
+        "2c718570-3b68-43b3-9937-238db6b95c09",
+        "740c5dad-0d7a-41fd-88f0-ef62df917844",
+        "9b570289-92a8-4204-985e-04187f979acd",
+        "4fb810c2-8d8a-4f84-9561-bc771753fc03",
+        "34339ae7-ebba-41cd-bfb3-805342794e83",
+        "1e209bd2-f1d5-40f7-8761-c95391ff6114",
+        "a21b7085-dab3-4392-b0ee-1a50d2b223ef",
+        "0e51eaa3-faae-4e38-946a-49122dd89ae6",
+        "be890b3e-ca4d-48b4-8ba9-07ba8abf47a5"
+      ],
+      "settings": {
+        "section_bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "162b6dae-2410-4a89-9f4b-bb449025d7d4": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19017693987096__162b6dae-2410-4a89-9f4b-bb449025d7d4-1684586707392e5510-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Customized Menus listing the bride and groom's name will be created for the On-Site Food Truck Option. The Buttz Truck will be decorated with the \"I DO BBQ\" Theme for you and your guest to use as a background to take memorable pictures. Wedding Photo Booth Signs are also available for pictures for no extra charge.<\/p>",
+            "text_style": "body",
+            "use_custom_color": false,
+            "custom_color": "#222222"
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693987096__162b6dae-2410-4a89-9f4b-bb449025d7d4-1684586707392e5510-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/wedding-img-2.png",
+        "img_url": "",
+        "img_border": false,
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_contain": true,
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2c33bab7-44ff-4af6-b651-fb7d54a7c6ab",
+    "e96fccaf-b000-44c7-8c1c-a7f2387710db",
+    "162b6dae-2410-4a89-9f4b-bb449025d7d4"
+  ]
+}

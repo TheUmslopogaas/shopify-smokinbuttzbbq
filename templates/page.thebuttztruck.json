@@ -1,0 +1,623 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "ea4ea790-ff2d-41ea-b470-86219aa7d4c5": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19017693823256__ea4ea790-ff2d-41ea-b470-86219aa7d4c5-16842836691eec9f7d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>RUTHERFORD COUNTY'S ~(FAVORITE)~  FOOD TRUCK<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19017693823256__ea4ea790-ff2d-41ea-b470-86219aa7d4c5-16842836691eec9f7d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our food truck is rolling through the streets of Middle Tennessee daily.<br\/>Our location changes daily and we post our schedule weekly. To see where we will be next, <strong>TEXT \"Buttz\" to 88000<\/strong> for daily locations.<\/p><p>Wanna hire the truck for a private event?<br\/>Check out our <a href=\"https:\/\/www.smokinbuttzbbq.com\/catering\" title=\"https:\/\/www.smokinbuttzbbq.com\/catering\">catering page<\/a>! <\/p>",
+            "text_style": "body",
+            "use_custom_color": false,
+            "custom_color": "#222222"
+          }
+        },
+        "template--19017693823256__ea4ea790-ff2d-41ea-b470-86219aa7d4c5-16842836691eec9f7d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "TRUCK SCHEDULE",
+            "button_link": "shopify:\/\/pages\/truck-schedule",
+            "button_newtab": true,
+            "button_label_2": "PRINT TRUCK MENU",
+            "button_link_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0756\/6472\/0152\/files\/Regular_Menu_2023_2.pdf?v=1685426641",
+            "button_2_newtab": true
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693823256__ea4ea790-ff2d-41ea-b470-86219aa7d4c5-16842836691eec9f7d-0",
+        "template--19017693823256__ea4ea790-ff2d-41ea-b470-86219aa7d4c5-16842836691eec9f7d-1",
+        "template--19017693823256__ea4ea790-ff2d-41ea-b470-86219aa7d4c5-16842836691eec9f7d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/thebtztruck1.jpg",
+        "img_url": "",
+        "img_border": false,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_contain": true,
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c6e63d3e-fe08-4aa0-9ff2-5d5ee103f833": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19017693823256__c6e63d3e-fe08-4aa0-9ff2-5d5ee103f833-16842836691eec9f7d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Wanna hire the truck for a private event? Check out our catering page!<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19017693823256__c6e63d3e-fe08-4aa0-9ff2-5d5ee103f833-16842836691eec9f7d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "BOOK THE TRUCK",
+            "button_link": "shopify:\/\/pages\/request-the-truck",
+            "button_newtab": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_2_newtab": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693823256__c6e63d3e-fe08-4aa0-9ff2-5d5ee103f833-16842836691eec9f7d-0",
+        "template--19017693823256__c6e63d3e-fe08-4aa0-9ff2-5d5ee103f833-16842836691eec9f7d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/thebtztruck2.jpg",
+        "img_url": "",
+        "img_border": false,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_contain": true,
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3311fe05-c65e-47d7-9e85-12768de5edd0": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "template--19017693823256__3311fe05-c65e-47d7-9e85-12768de5edd0-1684283921099a58e1-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/thebtztruck2.jpg",
+            "title": "",
+            "title_color": "",
+            "title_bg_color": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19017693823256__3311fe05-c65e-47d7-9e85-12768de5edd0-1684283921099a58e1-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/thebtztruck1.jpg",
+            "title": "",
+            "title_color": "",
+            "title_bg_color": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19017693823256__3311fe05-c65e-47d7-9e85-12768de5edd0-1684283921099a58e1-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/thebtztruck2.jpg",
+            "title": "",
+            "title_color": "",
+            "title_bg_color": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "31977b85-d673-4088-badb-55ecb2eb2df4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/thebtztruck1.jpg",
+            "title": "",
+            "title_color": "",
+            "title_bg_color": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "bbbc20f3-5641-44dd-b369-fa5eb6a9be04": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/thebtztruck2.jpg",
+            "title": "",
+            "title_color": "",
+            "title_bg_color": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693823256__3311fe05-c65e-47d7-9e85-12768de5edd0-1684283921099a58e1-0",
+        "template--19017693823256__3311fe05-c65e-47d7-9e85-12768de5edd0-1684283921099a58e1-1",
+        "template--19017693823256__3311fe05-c65e-47d7-9e85-12768de5edd0-1684283921099a58e1-2",
+        "31977b85-d673-4088-badb-55ecb2eb2df4",
+        "bbbc20f3-5641-44dd-b369-fa5eb6a9be04"
+      ],
+      "settings": {
+        "title": "",
+        "tab_item_id": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "14c23aa1-e59a-438b-a062-224f4a99ac11": {
+      "type": "images",
+      "blocks": {
+        "template--19017693823256__14c23aa1-e59a-438b-a062-224f4a99ac11-168496183482a2ddfc-0": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/thebtztruck1.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "52491b11-c34c-4d4c-9137-fa7c15ed865a": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/thebtztruck2.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "6ecc40d5-01b9-4dc5-97b1-0da35bd0aba9": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_0bd1a23a0e98418da4762a1e1d0cfeb4_mv2_d_6016_4016_s_4_2_7650d822-8022-40e3-99f1-d63207212dd5.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "ef6e5967-6739-4002-b4d3-36d40717b3eb": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_0e7ed84ea20c415b894823eb1350001a_mv2_d_5424_4016_s_4_2_2b9f31a2-02c1-42ab-b078-3e40cdc35651.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "0175cd6d-723e-4e90-bf02-f5d75fb3b18c": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_4e5f45bcb29c43508f7a1cc93414d32a_mv2_d_6016_4016_s_4_2_1bc32917-56a1-4b59-8af6-ecb2c87c41a2.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "d44149d7-7263-4392-8918-d7d71fa64c41": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_5f6b43e194be4c428f31dd8db45627ad_mv2_4c8ab235-8d91-4c6b-bcba-4eb175bfae49.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "12d0e129-1ffc-457d-a5cc-c52afa9635a2": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_6bf3c12630724000a5173d6ef2e5272f_mv2_d_6016_4016_s_4_2_d3c2b7d5-a51e-4892-b380-bcb7483e001f.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "39cf3f8f-72f8-4b75-a7b4-ef5a31f0f073": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_6daef7a8ccba4aefaf3744dec54b2f33_mv2_d_6016_4016_s_4_2_723527e7-e176-4575-8227-5da98d14a0d5.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "eaffa4f2-5354-4627-9faa-c7fee6c45b25": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_7d390a6349a542ca966065a9ce5e38e0_mv2_d_6016_4016_s_4_2_778ca9f3-007c-4c5c-8baf-8ee45a4fe1e7.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "83308e9f-46a8-4957-9492-2a378d767db6": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_8b22f4fad7bb4d868b5727c5c8b08aac_mv2_d_6016_4016_s_4_2_543a9236-fc2a-4fea-9e05-995caf0fdcf4.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "1f7c6307-e833-4bcf-9ab5-36630c0446f1": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_10beaa684ebc46ee9de0ee133cbd548d_mv2_d_6016_4016_s_4_2_f3cb5feb-12d9-488b-87d3-302eba0cd674.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "e2e61eb8-2f47-4f4e-b4af-3655c9b7cf1d": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_28a032c1ccad4a9383f19efd8650da3d_mv2_d_6016_4016_s_4_2_28b3e29c-2bb0-4615-a795-9ff98084648d.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "189e9262-929b-4cfe-b121-e86840388a14": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_39afff222edb40bf951a5a80c8b654b0_mv2_d_6016_4016_s_4_2_a80f0553-7255-4c69-9fc7-97835c36279f.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "61bf48c1-b99e-499d-804e-e6f375c3cdb1": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_60acf0aa36e94df58fc0ffc12501213b_mv2_d_6016_4016_s_4_2_be590f9c-8b86-4eef-9244-591495d550a3.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "d4459e23-cdbb-40de-bac7-87121e3c4006": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_71bb208d568a42b99d4c81cabbfc2a14_mv2_d_6016_4016_s_4_2_dab464f2-60c3-47d4-bbfb-81340e0adcf7.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "705fd66c-725d-4847-b87a-a99870511631": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_82b547c78a6340e8846839cf6ee340b9_mv2_d_6016_4016_s_4_2_309790e6-f32d-472e-a840-cbba2c586a6e.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "8c305eb6-9902-4eee-8b23-d855cbab9f02": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_82f2af218be2481eb7a0aa3561721650_mv2_d_6016_4016_s_4_2_19de7f63-4543-4bb8-a9d3-cde34992ca43.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "80b19779-2dc7-4a6d-82ed-3f09fef9d1d7": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_91c78eb4c5904c3cb6c93c1b2c569d0a_mv2_d_4016_6016_s_4_2_c750bdfe-a34f-493c-b3ee-91aa39a98a5e.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "fbef0bf2-8435-4a50-abb8-1234a8a4b9d8": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_98ea724d6a0e41eb8e74ce0f06f4d739_mv2_54357d5d-fab5-44a6-ab9a-ae63e15b5150.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "c2e21e61-5835-413d-9f68-61b61a786e4a": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_131c32262a1346ce9e37b64aea6ac28d_mv2_d_4016_6016_s_4_2_7b494590-a8f3-43d1-9f89-aea455772048.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "71646dcb-ce05-44e4-a349-8afdd2643566": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_252f562e132c406799c54f17e08d4db5_mv2_d_6016_4016_s_4_2_d3f6dd32-dace-4d76-bd25-9a72584330d9.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "a618c659-b823-43fa-9b13-c0722c59da46": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_526b80905079499c8ce9efdd00027d96_mv2_021f8446-b8eb-4ac5-8b80-3ac96c1872b7.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "984aaa0a-69bb-4a2d-bd52-03f32e9d86a6": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_601fa7c9ba02443c8487a135170fd124_mv2_cf4f9a7e-e0c0-4c0c-9c04-cea3c55e6ef8.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "3dc67c6f-89a8-4a5f-80b5-1e1bbe6e0337": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_677a4f91eb884f8bb615e7de7f9e114f_mv2_c25e4880-c998-4f04-af7e-b495f58e6c99.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "083cc85c-9093-4b96-b6e8-847e83cc7385": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_770b213762ec4f298db45c3554dfbc25_mv2_d_6016_4016_s_4_2_1e097cce-5b05-4153-8c75-3d20276d8b74.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "fc3d13b6-2755-4e50-9aef-21b82c7ec632": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_804df3c1019c41eeb4aa5d96fea2ff0b_mv2_d_6016_4016_s_4_2_2a0ead61-2ece-402e-a9e6-5a61c88efdb0.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "492a5e25-98a8-4f88-9870-4fce60ba14f7": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_3994c9facd9a4cb09ed4c5d72df3c464_mv2_d_6016_4016_s_4_2_829b5e74-4779-4a05-a8b6-9ecb4ad41173.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "01d474b8-3555-4003-ace3-3d23b7a3beb8": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_4563e410964d4876b0c0febf4b214f95_mv2_d_6016_4016_s_4_2_950b9927-3f15-4d1e-8301-c6b12ff12a4f.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "9b5bf782-f04e-441b-9f17-8d5d8d562d60": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_7746d746ea644350aea081aaa6d88333_mv2_d_6016_4016_s_4_2_aa35daca-f503-4f72-a5bf-d1f6fd37a85d.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "3348d531-fb48-45fd-bd96-962262863e53": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_9513c9a1b84c443da7d434983b85c3ff_mv2_d_6016_4016_s_4_2_0dc57f0f-9497-4306-a3e2-cf5f261729d6.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "f2eeceae-cb44-4077-bd09-69228bd887a9": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_9046433e3653435a81acb859ee4712f7_mv2_a54bf4a7-2353-4fba-8db5-a8c0bbe2a62d.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "8a7dbf89-5b8e-48b7-8ebc-2814a9f3d5dd": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_2647444375ed474b8088172c6e1bafd8_mv2_d_4016_5129_s_4_2_88b315c1-296b-49f2-8dc5-e82a1018a0f8.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "3c7839bd-ecf7-431a-b4df-ca8f18e05fa9": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_5606729697c742bfa934f7b00304de8a_mv2_d_6016_4016_s_4_2_265ec726-0a01-4e84-9dfc-6b0e82e2060d.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "9eb495a6-ab34-4372-93b8-b7b5c94d9dd5": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_a96bac80bd40461ca634ea42edfe5e68_mv2_d_6016_4016_s_4_2_a175d3c9-255b-4763-b516-da9f07629684.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "ce46c18d-0ea2-4f6d-82ef-c194805dea76": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_a7658b647e944effba984f5233e3503e_mv2_c02b230e-c260-434a-810b-99e772ad4e3c.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "ddcde012-2fe6-4368-aa6d-a023f5369b08": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_bcd2580bec9a4d70b779bfbf3f82140b_mv2_d_6016_4016_s_4_2_c7b81ec5-cf69-4372-a903-627ff420dc87.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "57ce7c43-3200-47c0-a84d-3eaccfd884af": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_cb533c0fc5b847c88cc91bcfdc91e2b7_mv2_2a96e8fc-55ae-4d41-8e4f-6f426ab9fd3e.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "1c76532d-63c5-41c5-bb92-ad518ca1e3d6": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_cec58b25f3394c92ab870b1adf746eee_mv2_8914b9d5-6241-4b09-8b24-d3224e9cd3f5.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "2c2bc69b-1908-4ef8-878d-ca247badf762": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_e1ced6dfd8154d0e949a6910f681991b_mv2_d_6016_4016_s_4_2_4adb06bb-c28d-4e03-8209-c801e6b02e12.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "c06e3002-1a51-494b-b59d-1f2a4b3741d5": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_ecb9cfd219e84711b7da1100e986830c_mv2_f367d5a7-e09a-4f6c-86a2-5a502c16869d.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "a85780da-82f2-4873-9fb8-42e56ad39d71": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_ef43989680504be0996723b91d1eaf52_mv2_d_6016_4016_s_4_2_596e2093-d018-4a8e-9f17-dfe0fc9ca4dd.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "8e54a234-2393-4077-9847-31e638afcbf8": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_f814252d489c4e039b803e812bfcc836_mv2_d_6016_4016_s_4_2_36adb7b4-6d7f-4fce-9902-e7616cd8464a.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "6e6483ed-1ffb-4ad3-a093-938b07431e70": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_fa45ab9464564c469fb703bc8a06cd33_mv2_3c6230ca-214c-4634-9048-8ee411517a26.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "057f8e6b-93cf-423d-9f85-6f1edf7d5df3": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_fe3b4f6bfa6e4090a96ddc82a37cb7f0_mv2_d_6016_4016_s_4_2_0cd3de2b-e29e-46c6-9d7a-5099a3635ffc.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693823256__14c23aa1-e59a-438b-a062-224f4a99ac11-168496183482a2ddfc-0",
+        "52491b11-c34c-4d4c-9137-fa7c15ed865a",
+        "6ecc40d5-01b9-4dc5-97b1-0da35bd0aba9",
+        "ef6e5967-6739-4002-b4d3-36d40717b3eb",
+        "0175cd6d-723e-4e90-bf02-f5d75fb3b18c",
+        "d44149d7-7263-4392-8918-d7d71fa64c41",
+        "12d0e129-1ffc-457d-a5cc-c52afa9635a2",
+        "39cf3f8f-72f8-4b75-a7b4-ef5a31f0f073",
+        "eaffa4f2-5354-4627-9faa-c7fee6c45b25",
+        "83308e9f-46a8-4957-9492-2a378d767db6",
+        "1f7c6307-e833-4bcf-9ab5-36630c0446f1",
+        "e2e61eb8-2f47-4f4e-b4af-3655c9b7cf1d",
+        "189e9262-929b-4cfe-b121-e86840388a14",
+        "61bf48c1-b99e-499d-804e-e6f375c3cdb1",
+        "d4459e23-cdbb-40de-bac7-87121e3c4006",
+        "705fd66c-725d-4847-b87a-a99870511631",
+        "8c305eb6-9902-4eee-8b23-d855cbab9f02",
+        "80b19779-2dc7-4a6d-82ed-3f09fef9d1d7",
+        "fbef0bf2-8435-4a50-abb8-1234a8a4b9d8",
+        "c2e21e61-5835-413d-9f68-61b61a786e4a",
+        "71646dcb-ce05-44e4-a349-8afdd2643566",
+        "a618c659-b823-43fa-9b13-c0722c59da46",
+        "984aaa0a-69bb-4a2d-bd52-03f32e9d86a6",
+        "3dc67c6f-89a8-4a5f-80b5-1e1bbe6e0337",
+        "083cc85c-9093-4b96-b6e8-847e83cc7385",
+        "fc3d13b6-2755-4e50-9aef-21b82c7ec632",
+        "492a5e25-98a8-4f88-9870-4fce60ba14f7",
+        "01d474b8-3555-4003-ace3-3d23b7a3beb8",
+        "9b5bf782-f04e-441b-9f17-8d5d8d562d60",
+        "3348d531-fb48-45fd-bd96-962262863e53",
+        "f2eeceae-cb44-4077-bd09-69228bd887a9",
+        "8a7dbf89-5b8e-48b7-8ebc-2814a9f3d5dd",
+        "3c7839bd-ecf7-431a-b4df-ca8f18e05fa9",
+        "9eb495a6-ab34-4372-93b8-b7b5c94d9dd5",
+        "ce46c18d-0ea2-4f6d-82ef-c194805dea76",
+        "ddcde012-2fe6-4368-aa6d-a023f5369b08",
+        "57ce7c43-3200-47c0-a84d-3eaccfd884af",
+        "1c76532d-63c5-41c5-bb92-ad518ca1e3d6",
+        "2c2bc69b-1908-4ef8-878d-ca247badf762",
+        "c06e3002-1a51-494b-b59d-1f2a4b3741d5",
+        "a85780da-82f2-4873-9fb8-42e56ad39d71",
+        "8e54a234-2393-4077-9847-31e638afcbf8",
+        "6e6483ed-1ffb-4ad3-a093-938b07431e70",
+        "057f8e6b-93cf-423d-9f85-6f1edf7d5df3"
+      ],
+      "settings": {
+        "section_bg_color": "",
+        "title": "",
+        "slide_imgs": true,
+        "full_width": false,
+        "col_count": "25",
+        "use_custom_height": true,
+        "height": 350,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ea4ea790-ff2d-41ea-b470-86219aa7d4c5",
+    "c6e63d3e-fe08-4aa0-9ff2-5d5ee103f833",
+    "3311fe05-c65e-47d7-9e85-12768de5edd0",
+    "14c23aa1-e59a-438b-a062-224f4a99ac11"
+  ]
+}

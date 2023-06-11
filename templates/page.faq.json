@@ -1,0 +1,262 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "590ed060-488b-4f99-81ba-66f7eec3b62e": {
+      "type": "banner-slider",
+      "blocks": {
+        "template--19017693495576__590ed060-488b-4f99-81ba-66f7eec3b62e-168463698058c30e11-0": {
+          "type": "slide",
+          "settings": {
+            "pretitle": "FREQUENTLY ASKED QUESTIONS",
+            "pretitle_color": "#000000",
+            "pretitle_custom_font_size": false,
+            "pretitle_font_size_d": 40,
+            "pretitle_font_size_m": 30,
+            "title": "",
+            "title_color": "#ffffff",
+            "title_custom_font_size": false,
+            "title_font_size_d": 60,
+            "title_font_size_m": 40,
+            "desc": "",
+            "desc_color": "#111111",
+            "desc_custom_font_size": false,
+            "desc_font_size_d": 25,
+            "desc_font_size_m": 18,
+            "btn_url_1": "",
+            "btn_label_1": "",
+            "btn_1_outline": false,
+            "btn_url_2": "",
+            "btn_label_2": "",
+            "btn_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693495576__590ed060-488b-4f99-81ba-66f7eec3b62e-168463698058c30e11-0"
+      ],
+      "settings": {
+        "use_desk_height": true,
+        "desk_height": 250,
+        "use_mbl_height": true,
+        "mbl_height": 250,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "984d585a-84d2-4367-a738-c7d3d71301c6": {
+      "type": "faq-tab",
+      "blocks": {
+        "1cf6958f-eebd-4d02-bea7-cf981ecf4143": {
+          "type": "tab",
+          "settings": {
+            "tabname": "The Truck",
+            "tabid": "the-truck"
+          }
+        },
+        "2a7dd51c-7bd4-46f9-83b7-df2b11a56a0e": {
+          "type": "tab",
+          "settings": {
+            "tabname": "Sauces",
+            "tabid": "sauces"
+          }
+        }
+      },
+      "block_order": [
+        "1cf6958f-eebd-4d02-bea7-cf981ecf4143",
+        "2a7dd51c-7bd4-46f9-83b7-df2b11a56a0e"
+      ],
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "d3feaa4e-6251-4e82-9113-3fbae7d597f0": {
+      "type": "accordion",
+      "blocks": {
+        "template--19017693495576__d3feaa4e-6251-4e82-9113-3fbae7d597f0-1684635932708875fd-0": {
+          "type": "accordion",
+          "settings": {
+            "question": "What is the length of your food truck\/food trailer?",
+            "answer": "<p>Approximate Clearance 30 feet long, height 13 ft and width 10ft (Food Truck) <\/p><p>Approximate Clearance 14 feet long (Food Trailer) <\/p>",
+            "color": "#ffffff",
+            "color_txt": "#111111",
+            "fb": "#",
+            "twitter": "#"
+          }
+        },
+        "template--19017693495576__d3feaa4e-6251-4e82-9113-3fbae7d597f0-1684635932708875fd-1": {
+          "type": "accordion",
+          "settings": {
+            "question": "Can you park the food truck\/ food trailer in the grass?",
+            "answer": "<p>Yes we can park on any surface as long as it is level<\/p>",
+            "color": "#ffffff",
+            "color_txt": "#111111",
+            "fb": "",
+            "twitter": ""
+          }
+        },
+        "template--19017693495576__d3feaa4e-6251-4e82-9113-3fbae7d597f0-1684635932708875fd-2": {
+          "type": "accordion",
+          "settings": {
+            "question": "Do you need power or water to operate your food truck\/ food trailer?",
+            "answer": "<p>No our truck\/trailer is self-contained with water and a quiet Honda Generator <\/p>",
+            "color": "#ffffff",
+            "color_txt": "#111111",
+            "fb": "",
+            "twitter": ""
+          }
+        },
+        "template--19017693495576__d3feaa4e-6251-4e82-9113-3fbae7d597f0-1684635932708875fd-3": {
+          "type": "accordion",
+          "settings": {
+            "question": "Will you travel out of state?",
+            "answer": "<p>No our service area consists of Middle Tennessee <\/p>",
+            "color": "#ffffff",
+            "color_txt": "#111111",
+            "fb": "",
+            "twitter": ""
+          }
+        },
+        "f4408dd1-9b1c-4ce0-9a90-649f234c25c5": {
+          "type": "accordion",
+          "settings": {
+            "question": "What methods of payments do you accept?",
+            "answer": "<p>Cash, Debit or Credit Cards, Apple Pay, Venmo or Business Checks (Only accepted for catering) <\/p>",
+            "color": "#ffffff",
+            "color_txt": "#111111",
+            "fb": "",
+            "twitter": ""
+          }
+        },
+        "d3e507d9-46f7-48d4-9a44-5e707d259cbc": {
+          "type": "accordion",
+          "settings": {
+            "question": "Do you require a down payment on catering orders?",
+            "answer": "<p>Yes all Onsite Food Truck, Drop Off\/Delivery, Box Lunches and Buffet Style Catering requires a non-refundable 50% down payment <\/p>",
+            "color": "#ffffff",
+            "color_txt": "#121212",
+            "fb": "",
+            "twitter": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693495576__d3feaa4e-6251-4e82-9113-3fbae7d597f0-1684635932708875fd-0",
+        "template--19017693495576__d3feaa4e-6251-4e82-9113-3fbae7d597f0-1684635932708875fd-1",
+        "template--19017693495576__d3feaa4e-6251-4e82-9113-3fbae7d597f0-1684635932708875fd-2",
+        "template--19017693495576__d3feaa4e-6251-4e82-9113-3fbae7d597f0-1684635932708875fd-3",
+        "f4408dd1-9b1c-4ce0-9a90-649f234c25c5",
+        "d3e507d9-46f7-48d4-9a44-5e707d259cbc"
+      ],
+      "settings": {
+        "section_bg_color": "",
+        "title": "",
+        "round": false,
+        "border": true,
+        "tab_item_id": "the-truck",
+        "col_count": "100",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "f8d7cc73-ead4-4b62-b41a-6eb261a0011b": {
+      "type": "accordion",
+      "blocks": {
+        "template--19017693495576__f8d7cc73-ead4-4b62-b41a-6eb261a0011b-1684636913896f9e12-0": {
+          "type": "accordion",
+          "settings": {
+            "question": "How long does it take to receive my Buttz Sauce?",
+            "answer": "<p>Sauce orders placed online will be shipped within 1 to 3 business days. You will receive an email with tracking information once shipped. If you have questions, please contact us at sauces@smokinbuttzbbq.com<\/p>",
+            "color": "#ffffff",
+            "color_txt": "#111111",
+            "fb": "",
+            "twitter": ""
+          }
+        },
+        "template--19017693495576__f8d7cc73-ead4-4b62-b41a-6eb261a0011b-1684636913896f9e12-1": {
+          "type": "accordion",
+          "settings": {
+            "question": "What is the return policy?",
+            "answer": "<p>Here at Smokin’ Buttz BBQ Online Store, it is our mission to make sure that you are 100% satisfied with your purchase! If you are unhappy with the item(s) received for any reason, you may return your purchase within 30 days of the purchase date. <\/p><p>When returning an item, please note that:<\/p><ul><li>The item must be in new\/unused condition<\/li><li>The item isn't damaged (see the information below on damaged orders)<\/li><li>Must be within 30 days of the purchase date<\/li><\/ul><p>If the return in question meets the above criteria, please pack the item up safe & sound for shipping back to our warehouse. <\/p><p>Return Address:<\/p><p>*Please note that return shipping is to be paid by the customer. <\/p>",
+            "color": "#ffffff",
+            "color_txt": "#111111",
+            "fb": "",
+            "twitter": ""
+          }
+        },
+        "template--19017693495576__f8d7cc73-ead4-4b62-b41a-6eb261a0011b-1684636913896f9e12-2": {
+          "type": "accordion",
+          "settings": {
+            "question": "How long does it take for my return\/refund to be processed?",
+            "answer": "<p>Once we receive your return shipment back to our warehouse, we will issue a refund for the item back to the credit card used for the original order. Please allow 5-7 business days for the refund to post back to your account. Please note that the refund will not include the shipping cost for the original order.<\/p>",
+            "color": "#ffffff",
+            "color_txt": "#111111",
+            "fb": "",
+            "twitter": ""
+          }
+        },
+        "template--19017693495576__f8d7cc73-ead4-4b62-b41a-6eb261a0011b-1684636913896f9e12-3": {
+          "type": "accordion",
+          "settings": {
+            "question": "My order is damaged! What should I do?",
+            "answer": "<p>Oh no! We’re sorry to hear that your order didn't make it to you in one piece. We certainly do our best to properly package each item, but sometimes a package can be damaged in transit. Please notify us within 5 days after receiving the shipment with a photo of the damaged item at sauces@smokinbuttzbbq.com. With proof of the damage, we would be happy to send out a replacement or issue a full refund for the order.<\/p>",
+            "color": "#ffffff",
+            "color_txt": "#111111",
+            "fb": "",
+            "twitter": ""
+          }
+        },
+        "3966fef0-8d4b-4abb-ad4e-9771cd677da5": {
+          "type": "accordion",
+          "settings": {
+            "question": "Can I cancel my order?",
+            "answer": "<p>Have a sudden change of heart? We would be happy to cancel any orders that have not been shipped. Please notify us at sauces@smokinbuttzbbq.com of any cancellations. We process orders pretty quickly, so please notify us of any cancellations as quickly as possible. If the order has already shipped, please view our return policy. <\/p>",
+            "color": "#ffffff",
+            "color_txt": "#121212",
+            "fb": "",
+            "twitter": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693495576__f8d7cc73-ead4-4b62-b41a-6eb261a0011b-1684636913896f9e12-0",
+        "template--19017693495576__f8d7cc73-ead4-4b62-b41a-6eb261a0011b-1684636913896f9e12-1",
+        "template--19017693495576__f8d7cc73-ead4-4b62-b41a-6eb261a0011b-1684636913896f9e12-2",
+        "template--19017693495576__f8d7cc73-ead4-4b62-b41a-6eb261a0011b-1684636913896f9e12-3",
+        "3966fef0-8d4b-4abb-ad4e-9771cd677da5"
+      ],
+      "settings": {
+        "section_bg_color": "",
+        "title": "",
+        "round": false,
+        "border": true,
+        "tab_item_id": "sauces",
+        "col_count": "100",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "590ed060-488b-4f99-81ba-66f7eec3b62e",
+    "984d585a-84d2-4367-a738-c7d3d71301c6",
+    "d3feaa4e-6251-4e82-9113-3fbae7d597f0",
+    "f8d7cc73-ead4-4b62-b41a-6eb261a0011b"
+  ]
+}

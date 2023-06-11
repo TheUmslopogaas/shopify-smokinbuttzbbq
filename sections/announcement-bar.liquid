@@ -1,0 +1,130 @@
+{%- for block in section.blocks -%}
+  {%- case block.type -%}
+    {%- when 'announcement' -%}
+      <div class="announcement-bar color-{{ block.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
+        <div class="announcement-bar__link focus-inset animate-arrow">
+          <div class="page-width">
+            {% if block.settings.text_1 %}
+            <a href="{{ block.settings.link_1 }}" class="announcement-bar__message h5">
+              <span>{{ block.settings.text_1 | escape }}</span>
+            </a>
+            {% endif %}
+            {% if block.settings.text_2 %}
+            <a href="{{ block.settings.link_2 }}" class="announcement-bar__message h5">
+              <span>{{ block.settings.text_2 | escape }}</span>
+            </a>
+            {% endif %}
+            {% if block.settings.text_3 %}
+            <a href="{{ block.settings.link_3 }}" class="announcement-bar__message h5">
+              <span>{{ block.settings.text_3 | escape }}</span>
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+  {%- endcase -%}
+{%- endfor -%}
+
+{% schema %}
+{
+  "name": "t:sections.announcement-bar.name",
+  "max_blocks": 12,
+  "class": "announcement-bar-section",
+  "blocks": [
+    {
+      "type": "announcement",
+      "name": "t:sections.announcement-bar.blocks.announcement.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text_1",
+          "default": "Find Our Truck",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
+        },
+        {
+          "type": "url",
+          "id": "link_1",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.link.label"
+        },
+        {
+          "type": "text",
+          "id": "text_2",
+          "default": "Book The Truck",
+          "label": "Second Link"
+        },
+        {
+          "type": "url",
+          "id": "link_2",
+          "label": "Second Link URL"
+        },
+        {
+          "type": "text",
+          "id": "text_3",
+          "default": "Buy Sauces",
+          "label": "Third Link"
+        },
+        {
+          "type": "url",
+          "id": "link_3",
+          "label": "Third Link URL"
+        },
+        {
+          "type": "select",
+          "id": "text_alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.options__1.label"
+            },
+            {
+              "value": "center",
+              "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.options__2.label"
+            },
+            {
+              "value": "right",
+              "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.options__3.label"
+            }
+          ],
+          "default": "center",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.label"
+        },
+        {
+          "type": "select",
+          "id": "color_scheme",
+          "options": [
+            {
+              "value": "accent-1",
+              "label": "t:sections.all.colors.accent_1.label"
+            },
+            {
+              "value": "accent-2",
+              "label": "t:sections.all.colors.accent_2.label"
+            },
+            {
+              "value": "background-1",
+              "label": "t:sections.all.colors.background_1.label"
+            },
+            {
+              "value": "background-2",
+              "label": "t:sections.all.colors.background_2.label"
+            },
+            {
+              "value": "inverse",
+              "label": "t:sections.all.colors.inverse.label"
+            }
+          ],
+          "default": "accent-1",
+          "label": "t:sections.all.colors.label"
+        }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "announcement"
+      }
+    ]
+  }
+}
+{% endschema %}

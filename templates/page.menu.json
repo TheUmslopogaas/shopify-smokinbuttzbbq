@@ -1,0 +1,507 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "55425721-ae20-434d-a8f9-ef9799750d67": {
+      "type": "banner-slider",
+      "blocks": {
+        "template--19017693593880__55425721-ae20-434d-a8f9-ef9799750d67-1684711683560470d2-1": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/menu-bg.jpg",
+            "img_overlay": 0,
+            "pretitle": "",
+            "pretitle_color": "#d90707",
+            "pretitle_custom_font_size": true,
+            "pretitle_font_size_d": 40,
+            "pretitle_font_size_m": 30,
+            "title": "MENU",
+            "title_color": "#ffffff",
+            "title_custom_font_size": true,
+            "title_font_size_d": 60,
+            "title_font_size_m": 40,
+            "desc": "",
+            "desc_color": "#111111",
+            "desc_custom_font_size": false,
+            "desc_font_size_d": 25,
+            "desc_font_size_m": 18,
+            "btn_url_1": "",
+            "btn_label_1": "",
+            "btn_1_outline": false,
+            "btn_url_2": "",
+            "btn_label_2": "",
+            "btn_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693593880__55425721-ae20-434d-a8f9-ef9799750d67-1684711683560470d2-1"
+      ],
+      "settings": {
+        "use_desk_height": true,
+        "desk_height": 250,
+        "use_mbl_height": true,
+        "mbl_height": 250,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "6f3b588b-505f-4f51-b5f4-30df5a8fe9c8": {
+      "type": "recipe-list-tab",
+      "blocks": {
+        "6845bcac-a159-4fb9-b267-b0b8d12eb11d": {
+          "type": "tab",
+          "settings": {
+            "tabname": "The Buttz Truck",
+            "tabid": "the-buttz-truck"
+          }
+        },
+        "a417cf0f-8525-4d4a-aea7-08c3a3d39d58": {
+          "type": "tab",
+          "settings": {
+            "tabname": "Buttz Breakfast",
+            "tabid": "buttz-breakfast"
+          }
+        },
+        "14d56063-b53b-42c7-b8dc-eef5686bfcd0": {
+          "type": "desc",
+          "settings": {
+            "desc": "<p>BBQ so GOOD, PIGS are DYING to GET SMOKED!!<\/p>",
+            "tab_item_id": "the-buttz-truck"
+          }
+        },
+        "b602e015-923d-40dd-94df-8f781d0617a7": {
+          "type": "desc",
+          "settings": {
+            "desc": "<p>(Only served at Farmers Markets or Catered Events)<\/p>",
+            "tab_item_id": "buttz-breakfast"
+          }
+        }
+      },
+      "block_order": [
+        "6845bcac-a159-4fb9-b267-b0b8d12eb11d",
+        "a417cf0f-8525-4d4a-aea7-08c3a3d39d58",
+        "14d56063-b53b-42c7-b8dc-eef5686bfcd0",
+        "b602e015-923d-40dd-94df-8f781d0617a7"
+      ],
+      "settings": {
+        "calendar_app": "",
+        "section_bg_color": "",
+        "img": "shopify:\/\/shop_images\/truck_bbq_Transparent_1_1.jpg",
+        "btn_1_url": "https:\/\/streetfoodfinder.com\/smokinbuttz",
+        "btn_1_label": "ORDER ONLINE",
+        "button_1_newtab": true,
+        "btn_2_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0756\/6472\/0152\/files\/Regular_Menu_2023_2.pdf?v=1685426641",
+        "btn_2_label": "PRINT TRUCK MENU",
+        "button_2_newtab": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "ad3f2bb2-0281-47a6-9170-fdcbcff737bd": {
+      "type": "recipe-list",
+      "blocks": {
+        "template--19017693593880__ad3f2bb2-0281-47a6-9170-fdcbcff737bd-1684931030a5652ee0-0": {
+          "type": "recipe",
+          "settings": {
+            "recipe_title": "The Hickory...........................................$8",
+            "recipe_desc": "<p>Smoked Pulled Pork with BBQ Sauce & Pickles served on a Fresh Baked Bun. <\/p>"
+          }
+        },
+        "template--19017693593880__ad3f2bb2-0281-47a6-9170-fdcbcff737bd-1684931030a5652ee0-1": {
+          "type": "recipe",
+          "settings": {
+            "recipe_title": "The Mesquite...............................$8",
+            "recipe_desc": "<p>Smoked Pulled Chicken with BBQ Sauce & Pickles served on a Fresh Baked Bun. <\/p>"
+          }
+        },
+        "template--19017693593880__ad3f2bb2-0281-47a6-9170-fdcbcff737bd-1684931030a5652ee0-2": {
+          "type": "recipe",
+          "settings": {
+            "recipe_title": "The Texas.............................................$12",
+            "recipe_desc": "<p>Pulled Smoked Brisket with BBQ Sauce & Pickles served on Texas Toast.<\/p>"
+          }
+        },
+        "template--19017693593880__ad3f2bb2-0281-47a6-9170-fdcbcff737bd-1684931030a5652ee0-3": {
+          "type": "recipe",
+          "settings": {
+            "recipe_title": "Smokin' Jack Grilled Cheese (Available Only                        During Lunch)............................................$9",
+            "recipe_desc": "<p>Smoked Pulled Pork or Pulled Chicken with Pepper Jack Cheese, Jalapeños & BBQ Sauce served on Sourdough Bread. <\/p>"
+          }
+        },
+        "6e78a94a-f860-45ca-beb1-56fe23eaffce": {
+          "type": "recipe",
+          "settings": {
+            "recipe_title": "The Gut Buster....................................$9",
+            "recipe_desc": "<p>Smoked Pulled Pork or Smoked Pulled Chicken served on a Fresh Baked Bun. Topped with Nacho Cheese, Jalapenos and BBQ Sauce. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693593880__ad3f2bb2-0281-47a6-9170-fdcbcff737bd-1684931030a5652ee0-0",
+        "template--19017693593880__ad3f2bb2-0281-47a6-9170-fdcbcff737bd-1684931030a5652ee0-1",
+        "template--19017693593880__ad3f2bb2-0281-47a6-9170-fdcbcff737bd-1684931030a5652ee0-2",
+        "template--19017693593880__ad3f2bb2-0281-47a6-9170-fdcbcff737bd-1684931030a5652ee0-3",
+        "6e78a94a-f860-45ca-beb1-56fe23eaffce"
+      ],
+      "settings": {
+        "tab_item_id": "the-buttz-truck",
+        "title": "<p><strong>Buttz Sandwiches<\/strong><\/p>",
+        "title_color": "#ffffff",
+        "title_bg_color": "#d90707",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "3aa2a695-6949-400e-805f-74b8f5cb87f5": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19017693593880__3aa2a695-6949-400e-805f-74b8f5cb87f5-1684961561e0a771e7-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Smokin_Buttz-299.jpg",
+            "title": "The Hickory",
+            "title_color": "#ffffff",
+            "title_bg_color": "#d90707",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19017693593880__3aa2a695-6949-400e-805f-74b8f5cb87f5-1684961561e0a771e7-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Smokin_Buttz--4.jpg",
+            "title": "Smokin' Jack Grilled Cheese",
+            "title_color": "#ffffff",
+            "title_bg_color": "#d90707",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19017693593880__3aa2a695-6949-400e-805f-74b8f5cb87f5-1684961561e0a771e7-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The20_edited.jpg",
+            "title": "The Texas",
+            "title_color": "#ffffff",
+            "title_bg_color": "#d90707",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "514ba2a2-4bc6-45a1-a32f-d418acaaf9c0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Smokin_Buttz_be0ef34b-3173-4390-83c3-7b2cfa3500b7.jpg",
+            "title": "The Mesquite",
+            "title_color": "#ffffff",
+            "title_bg_color": "#d90707",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693593880__3aa2a695-6949-400e-805f-74b8f5cb87f5-1684961561e0a771e7-0",
+        "template--19017693593880__3aa2a695-6949-400e-805f-74b8f5cb87f5-1684961561e0a771e7-1",
+        "template--19017693593880__3aa2a695-6949-400e-805f-74b8f5cb87f5-1684961561e0a771e7-2",
+        "514ba2a2-4bc6-45a1-a32f-d418acaaf9c0"
+      ],
+      "settings": {
+        "title": "",
+        "tab_item_id": "the-buttz-truck",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b316f81d-230c-42c6-8820-4efbee00b2b9": {
+      "type": "recipe-list",
+      "blocks": {
+        "template--19017693593880__b316f81d-230c-42c6-8820-4efbee00b2b9-16849318957577bddd-0": {
+          "type": "recipe",
+          "settings": {
+            "recipe_title": "Overloaded Nachos......................$12",
+            "recipe_desc": "<p>Tortilla Chips topped with choice of Pulled Pork or Pulled Chicken, BBQ Sauce, Nacho Cheese, Pico De Gallo, Jalapenos & Sour Cream<\/p>"
+          }
+        },
+        "template--19017693593880__b316f81d-230c-42c6-8820-4efbee00b2b9-16849318957577bddd-1": {
+          "type": "recipe",
+          "settings": {
+            "recipe_title": "Overloaded Fries.........................$12",
+            "recipe_desc": "<p>French Fries with a choice of Pulled Pork or Pulled Chicken, BBQ Sauce, Nacho Cheese, Pico De Gallo, Jalapenos & Sour Cream<\/p>"
+          }
+        },
+        "template--19017693593880__b316f81d-230c-42c6-8820-4efbee00b2b9-16849318957577bddd-2": {
+          "type": "recipe",
+          "settings": {
+            "recipe_title": "Naked Nachos................................$5",
+            "recipe_desc": "<p>Tortilla Chips topped with Nacho Cheese. Added options Jalapenos, Pico de Gallo and Sour Cream.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693593880__b316f81d-230c-42c6-8820-4efbee00b2b9-16849318957577bddd-0",
+        "template--19017693593880__b316f81d-230c-42c6-8820-4efbee00b2b9-16849318957577bddd-1",
+        "template--19017693593880__b316f81d-230c-42c6-8820-4efbee00b2b9-16849318957577bddd-2"
+      ],
+      "settings": {
+        "tab_item_id": "the-buttz-truck",
+        "title": "<p><strong>Buttz Entrees<\/strong><\/p>",
+        "title_color": "#ffffff",
+        "title_bg_color": "#d90707",
+        "padding_top": 12,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "099a4dce-0fa5-45f2-903f-518ec77d5ece": {
+      "type": "recipe-list",
+      "blocks": {
+        "template--19017693593880__099a4dce-0fa5-45f2-903f-518ec77d5ece-16849318957577bddd-0": {
+          "type": "recipe",
+          "settings": {
+            "recipe_title": "Smokin' Mac Attack............................$3",
+            "recipe_desc": "<p><\/p><p><\/p><p><\/p>"
+          }
+        },
+        "template--19017693593880__099a4dce-0fa5-45f2-903f-518ec77d5ece-16849318957577bddd-1": {
+          "type": "recipe",
+          "settings": {
+            "recipe_title": "BBQ Baked Beans................................$3",
+            "recipe_desc": "<p><\/p><p><\/p><p><\/p>"
+          }
+        },
+        "template--19017693593880__099a4dce-0fa5-45f2-903f-518ec77d5ece-16849318957577bddd-2": {
+          "type": "recipe",
+          "settings": {
+            "recipe_title": "Mesquite Coleslaw..............................$3",
+            "recipe_desc": ""
+          }
+        },
+        "template--19017693593880__099a4dce-0fa5-45f2-903f-518ec77d5ece-16849318957577bddd-3": {
+          "type": "recipe",
+          "settings": {
+            "recipe_title": "Seasoned Fries.....................................$4",
+            "recipe_desc": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693593880__099a4dce-0fa5-45f2-903f-518ec77d5ece-16849318957577bddd-0",
+        "template--19017693593880__099a4dce-0fa5-45f2-903f-518ec77d5ece-16849318957577bddd-1",
+        "template--19017693593880__099a4dce-0fa5-45f2-903f-518ec77d5ece-16849318957577bddd-2",
+        "template--19017693593880__099a4dce-0fa5-45f2-903f-518ec77d5ece-16849318957577bddd-3"
+      ],
+      "settings": {
+        "tab_item_id": "the-buttz-truck",
+        "title": "<p><strong>Sides<\/strong><\/p>",
+        "title_color": "#ffffff",
+        "title_bg_color": "#d90707",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "14e58ae6-675f-44a6-b8a9-366004e888d0": {
+      "type": "recipe-list",
+      "blocks": {
+        "template--19017693593880__14e58ae6-675f-44a6-b8a9-366004e888d0-1684967666d8126e0c-0": {
+          "type": "recipe",
+          "settings": {
+            "recipe_title": "Smoked Sausage Sandwich........$7",
+            "recipe_desc": "<p>Smoked Sausage with Colby Jack Cheese topped with a Fried Egg with Our Signature Smokin' White Sauce served on Texas Toast.<\/p>"
+          }
+        },
+        "template--19017693593880__14e58ae6-675f-44a6-b8a9-366004e888d0-1684967666d8126e0c-1": {
+          "type": "recipe",
+          "settings": {
+            "recipe_title": "Buttz Breakfast Stack.........$9",
+            "recipe_desc": "<p>Fried Crispy Potatoes, Smoked Pork or Turkey Sausage, Fried Egg, Pico, Jalapenos, topped with our Signature Smokin' White Sauce. Served in a Bowl.<\/p>"
+          }
+        },
+        "template--19017693593880__14e58ae6-675f-44a6-b8a9-366004e888d0-1684967666d8126e0c-2": {
+          "type": "recipe",
+          "settings": {
+            "recipe_title": "Hashbrowne Casserole.........$4",
+            "recipe_desc": "<p>Hash Brown Potatoes with a Mixture of Different Cheeses.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693593880__14e58ae6-675f-44a6-b8a9-366004e888d0-1684967666d8126e0c-0",
+        "template--19017693593880__14e58ae6-675f-44a6-b8a9-366004e888d0-1684967666d8126e0c-1",
+        "template--19017693593880__14e58ae6-675f-44a6-b8a9-366004e888d0-1684967666d8126e0c-2"
+      ],
+      "settings": {
+        "tab_item_id": "buttz-breakfast",
+        "title": "<p><strong>Breakfast Items<\/strong><\/p>",
+        "title_color": "#ffffff",
+        "title_bg_color": "#d90707",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "e25771c3-6183-4618-98bc-5e5a0642e46f": {
+      "type": "recipe-list",
+      "blocks": {
+        "template--19017693593880__e25771c3-6183-4618-98bc-5e5a0642e46f-1684967666d8126e0c-1": {
+          "type": "recipe",
+          "settings": {
+            "recipe_title": "Juices.........$3",
+            "recipe_desc": "<p>Apple Juice or Orange Juice<\/p>"
+          }
+        },
+        "template--19017693593880__e25771c3-6183-4618-98bc-5e5a0642e46f-1684967666d8126e0c-2": {
+          "type": "recipe",
+          "settings": {
+            "recipe_title": "Water.........$2",
+            "recipe_desc": "<p>Bottled Water<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693593880__e25771c3-6183-4618-98bc-5e5a0642e46f-1684967666d8126e0c-1",
+        "template--19017693593880__e25771c3-6183-4618-98bc-5e5a0642e46f-1684967666d8126e0c-2"
+      ],
+      "settings": {
+        "tab_item_id": "buttz-breakfast",
+        "title": "<p><strong>Drinks<\/strong><\/p>",
+        "title_color": "#ffffff",
+        "title_bg_color": "#d90707",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "64fa56fc-46ab-4796-8e29-e4bb52e48b31": {
+      "type": "multi-component",
+      "blocks": {
+        "97914382-6783-4dc0-8be2-8232540cc2b6": {
+          "type": "title",
+          "settings": {
+            "title": "<p><strong>Menu subject to change based on availability. <br\/>All prices include tax<\/strong><\/p>",
+            "title_color": "#ffffff",
+            "title_bg_color": "#d90707"
+          }
+        },
+        "template--19017693593880__64fa56fc-46ab-4796-8e29-e4bb52e48b31-1684932113d26c587f-0": {
+          "type": "desc",
+          "settings": {
+            "desc": "<p>Method of Payments Accepted: Credit\/Debit and Cash<\/p>",
+            "content_alignment": "text-center"
+          }
+        }
+      },
+      "block_order": [
+        "97914382-6783-4dc0-8be2-8232540cc2b6",
+        "template--19017693593880__64fa56fc-46ab-4796-8e29-e4bb52e48b31-1684932113d26c587f-0"
+      ],
+      "settings": {
+        "section_bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "f2f3cc4f-758f-485b-a047-621c37e61d68": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19017693593880__f2f3cc4f-758f-485b-a047-621c37e61d68-1684932193611dfc9e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Can't get enough of our Buttz Sauces?<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19017693593880__f2f3cc4f-758f-485b-a047-621c37e61d68-1684932193611dfc9e-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body",
+            "use_custom_color": false,
+            "custom_color": "#222222"
+          }
+        },
+        "template--19017693593880__f2f3cc4f-758f-485b-a047-621c37e61d68-1684932193611dfc9e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "GRAB YOURS NOW",
+            "button_link": "shopify:\/\/collections\/buttz-sauce",
+            "button_newtab": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_2_newtab": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693593880__f2f3cc4f-758f-485b-a047-621c37e61d68-1684932193611dfc9e-0",
+        "template--19017693593880__f2f3cc4f-758f-485b-a047-621c37e61d68-1684932193611dfc9e-1",
+        "template--19017693593880__f2f3cc4f-758f-485b-a047-621c37e61d68-1684932193611dfc9e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bottle.jpg",
+        "img_url": "",
+        "img_border": false,
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_contain": true,
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "55425721-ae20-434d-a8f9-ef9799750d67",
+    "6f3b588b-505f-4f51-b5f4-30df5a8fe9c8",
+    "ad3f2bb2-0281-47a6-9170-fdcbcff737bd",
+    "3aa2a695-6949-400e-805f-74b8f5cb87f5",
+    "b316f81d-230c-42c6-8820-4efbee00b2b9",
+    "099a4dce-0fa5-45f2-903f-518ec77d5ece",
+    "14e58ae6-675f-44a6-b8a9-366004e888d0",
+    "e25771c3-6183-4618-98bc-5e5a0642e46f",
+    "64fa56fc-46ab-4796-8e29-e4bb52e48b31",
+    "f2f3cc4f-758f-485b-a047-621c37e61d68"
+  ]
+}

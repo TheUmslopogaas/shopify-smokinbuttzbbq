@@ -1,0 +1,153 @@
+{%- style -%}
+  /* Sectoin Dynamic Spcing */
+  #shopify-section-{{ section.id }} {
+    margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+    margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    #shopify-section-{{ section.id }} {
+      margin-top: {{ section.settings.margin_top }}px;
+      margin-bottom: {{ section.settings.margin_bottom }}px;
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div {% if section.settings.tab_item_id %}data-tabitem="{{section.settings.tab_item_id}}" data-enable-tab{% endif %}>
+  {% if section.settings.title != blank %}
+    <div class="full-width-title" style="{% if section.settings.title_bg_color %}background-color: {{section.settings.title_bg_color}};{% endif %}">
+      <div class="page-width"
+        style="{% if section.settings.title_color %}color: {{section.settings.title_color}};{% endif %}">
+        {{ section.settings.title }}
+      </div>
+    </div>
+  {% endif %}
+  <div class="page-width">
+    <div class="recipelist-wrapper">
+      {% for block in section.blocks %}
+        <div class="recipe-individual">
+          {% if block.settings.recipe_title %}
+            <div class="recipe-title">{{ block.settings.recipe_title }}</div>
+          {% endif %}
+          {% if block.settings.recipe_desc %}
+            <div class="recipe-desc">{{ block.settings.recipe_desc }}</div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+
+{% schema %}
+{
+  "name": "Recipe List",
+  "class": "section section-recipe-list",
+  "settings": [
+    {
+      "type": "text",
+      "id": "tab_item_id",
+      "label": "Section Custom ID"
+    },    
+    {
+      "type": "richtext",
+      "id": "title",
+      "label": "Section Title",
+      "default": "<p>Section Title</p>"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default": "#FFF"
+    },
+    {
+      "type": "color",
+      "id": "title_bg_color",
+      "label": "Title Background Color",
+      "default": "#D90707"
+    },    
+    {
+      "type": "header",
+      "content": "Section Margin/Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "recipe",
+      "name": "Recipe List",
+      "settings": [
+        {
+          "type": "text",
+          "id": "recipe_title",
+          "label": "Recipe Title",
+          "default": "The Hickory.........$8"
+        },
+        {
+          "type": "richtext",
+          "id": "recipe_desc",
+          "label": "Recipe Description",
+          "default": "<p>Smoked Pulled Pork with BBQ Sauce & Pickles served on a Fresh Baked Bun. The Combo includes 1 Side and Drink - $12</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Recipe List",
+      "category": "Custom Item",
+      "blocks": [
+        {"type": "recipe"},
+        {"type": "recipe"},
+        {"type": "recipe"},
+        {"type": "recipe"}
+      ]
+    }
+  ]
+}
+{% endschema %}

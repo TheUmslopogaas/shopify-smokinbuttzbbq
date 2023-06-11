@@ -1,0 +1,169 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "cd305718-3944-42c0-9be1-d15db526e963": {
+      "type": "images",
+      "blocks": {
+        "template--19017693167896__cd305718-3944-42c0-9be1-d15db526e963-1684604638c9e6e17a-0": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/IMG_1676_1.jpg",
+            "img_cover": true,
+            "img_gap": false
+          }
+        },
+        "f95c130a-4a8a-4530-b43e-20808078dad8": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/IMG_1673.jpg",
+            "img_cover": true,
+            "img_gap": true
+          }
+        },
+        "90c32ccd-a103-4b56-9275-1f331b761b83": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/IMG_1674.jpg",
+            "img_cover": false,
+            "img_gap": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693167896__cd305718-3944-42c0-9be1-d15db526e963-1684604638c9e6e17a-0",
+        "f95c130a-4a8a-4530-b43e-20808078dad8",
+        "90c32ccd-a103-4b56-9275-1f331b761b83"
+      ],
+      "settings": {
+        "section_bg_color": "",
+        "title": "",
+        "slide_imgs": false,
+        "full_width": true,
+        "col_count": "33.33",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "71c7bf52-83c3-4826-8274-21868da0db12": {
+      "type": "multi-component",
+      "blocks": {
+        "7ae35391-a249-4953-96ac-5d0467fbd33c": {
+          "type": "title",
+          "settings": {
+            "title": "<p><strong>MEET THE BUTTZ TEAM<\/strong><\/p>",
+            "title_color": "#ffffff",
+            "title_bg_color": "#d90707"
+          }
+        },
+        "template--19017693167896__71c7bf52-83c3-4826-8274-21868da0db12-1684606433c70067f5-0": {
+          "type": "desc",
+          "settings": {
+            "desc": "<p>John Cathey created Smokin’ Buttz BBQ in 2014 because he saw the need to provide delicious quality BBQ for catering events to families for an economical price. John's extensive culinary background and a passion for cooking started at a very young age while he helped run his family's soul food restaurant, C & J Diner.<br\/><br\/>In June 2014, Smokin’ Buttz BBQ set up a tent and served BBQ at \"The Taste of Smyrna\" and received rave reviews about their barbecue. In September 2014, John and his wife Mylica Cathey began their journey of serving slow smoked barbeque out of a food trailer in Middle Tennessee on the weekends. In April 2016, John stepped out on faith and left his full-time job in IT to run Smokin' Buttz full-time. In September 2016, the couple purchased the Smokin’ Buttz Food Truck known around town as the Buttz Truck. Over the years Smokin' Buttz BBQ has become a leader in the Food Truck industry serving up delicious mouthwatering BBQ and providing exceptional customer service to their customers.<br\/><br\/>Two of their most popular sandwiches include The Hickory and The Mesquite. The Hickory, which is the pulled pork sandwich gets its name from the pork being smoked over hickory wood for hours upon hours. The Mesquite, which is the pulled chicken gets its name from the chicken being smoked over mesquite wood for hours upon hours.<br\/><br\/>Smokin’ Buttz was recognized as a Music City Must by News Channel 5 for their amazing sloppy Gut Buster Sandwich. On any given day you will find customers lined up taking selfies in front of their truck because of the fascination with their catchy slogan “BBQ so Good PIGS are Dying to get SMOKED!!<br\/><br\/>Smokin' Buttz was named Rutherford County's ''Favorite Food Truck\" in 2017 and 2019 by The Daily News Journal.<br\/>We thank all our past, present and future customers for their support over the years.<br\/>​<br\/>Follow the smoke, and you'll find these two sharing their love for BBQ with Tennessee.<br\/>Love at first BITE!<\/p>",
+            "content_alignment": "text-left"
+          }
+        },
+        "c98592fb-a47f-46fd-b8c2-9d1c2eb2cb47": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/sign.jpg",
+            "img_width": 400
+          }
+        },
+        "6de48ec4-a0a0-4c56-b1b6-dbb8dc28f38a": {
+          "type": "title",
+          "settings": {
+            "title": "<p><strong>Tent + Trailer+ Truck+ Kroger = GOD<\/strong><\/p>",
+            "title_color": "#ffffff",
+            "title_bg_color": "#d90707"
+          }
+        }
+      },
+      "block_order": [
+        "7ae35391-a249-4953-96ac-5d0467fbd33c",
+        "template--19017693167896__71c7bf52-83c3-4826-8274-21868da0db12-1684606433c70067f5-0",
+        "c98592fb-a47f-46fd-b8c2-9d1c2eb2cb47",
+        "6de48ec4-a0a0-4c56-b1b6-dbb8dc28f38a"
+      ],
+      "settings": {
+        "section_bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "47c5bacd-6c46-4e8f-8f69-66b510954710": {
+      "type": "vertical-timeline",
+      "blocks": {
+        "template--19017693167896__47c5bacd-6c46-4e8f-8f69-66b510954710-1684925893573f0f1d-0": {
+          "type": "row",
+          "settings": {
+            "title": "JULY 2014",
+            "img": "shopify:\/\/shop_images\/image0_fe9d4d67-0c71-4953-82af-955d6fc26d8d.jpg",
+            "img_right": false
+          }
+        },
+        "template--19017693167896__47c5bacd-6c46-4e8f-8f69-66b510954710-1684925893573f0f1d-1": {
+          "type": "row",
+          "settings": {
+            "title": "SEPT 2014",
+            "img": "shopify:\/\/shop_images\/image1_67a03462-58ac-4497-b559-30c00aeaff18.jpg",
+            "img_right": true
+          }
+        },
+        "c0ea7889-e4bc-4e87-8baa-4ceed8c0ac0f": {
+          "type": "row",
+          "settings": {
+            "title": "SEPT 2016",
+            "img": "shopify:\/\/shop_images\/image0_1_b9130d62-fdbf-427f-957b-e50fd995703f.jpg",
+            "img_right": false
+          }
+        },
+        "b699e60c-28d6-4586-bc98-62b97547be21": {
+          "type": "row",
+          "settings": {
+            "title": "DEC 2019",
+            "img": "shopify:\/\/shop_images\/image2_17d3bce2-a1ef-4e3a-87d6-e410f4787687.jpg",
+            "img_right": true
+          }
+        },
+        "86b2218f-8940-4b5c-8831-c159a947542c": {
+          "type": "row",
+          "settings": {
+            "title": "MARCH 2020",
+            "img": "shopify:\/\/shop_images\/Smokin_ButtzWhiteOut22023CC-15.jpg",
+            "img_right": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693167896__47c5bacd-6c46-4e8f-8f69-66b510954710-1684925893573f0f1d-0",
+        "template--19017693167896__47c5bacd-6c46-4e8f-8f69-66b510954710-1684925893573f0f1d-1",
+        "c0ea7889-e4bc-4e87-8baa-4ceed8c0ac0f",
+        "b699e60c-28d6-4586-bc98-62b97547be21",
+        "86b2218f-8940-4b5c-8831-c159a947542c"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cd305718-3944-42c0-9be1-d15db526e963",
+    "71c7bf52-83c3-4826-8274-21868da0db12",
+    "47c5bacd-6c46-4e8f-8f69-66b510954710"
+  ]
+}

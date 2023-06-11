@@ -1,0 +1,245 @@
+{%- style -%}
+
+  {% if section.settings.section_bg_color != blank %}
+    #shopify-section-{{ section.id }} {
+      background-color: {{section.settings.section_bg_color}};
+    }
+  {% endif %}
+
+  /* Sectoin Dynamic Spcing */
+  #shopify-section-{{ section.id }} {
+    margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+    margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 750px) {
+    #shopify-section-{{ section.id }} {
+      margin-top: {{ section.settings.margin_top }}px;
+      margin-bottom: {{ section.settings.margin_bottom }}px;
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+
+<div class="page-width">
+  <div class="recipelist-tab-wrap">
+    <div class="recipelist-tabLeft">
+      <div class="recipelist-img"><img src="{{section.settings.img | img_url: 'master'}}" alt=""></div>
+      <div class="recipelist-btns">
+        <small>ONLY AVAILABLE FOR PUBLIC EVENTS</small>
+        {% if section.settings.btn_1_label != blank %}
+          <a href="{{section.settings.btn_1_url}}" class="custom-btn" {% if block.settings.button_1_newtab %}target="_blank"{% endif %}>{{section.settings.btn_1_label}}</a>
+        {% endif %}
+        {% if section.settings.btn_2_label != blank %}
+          <a href="{{section.settings.btn_2_url}}" class="custom-btn" {% if block.settings.button_2_newtab %}target="_blank"{% endif %}>{{section.settings.btn_2_label}}</a>
+        {% endif %}
+      </div>
+      <div class="recipelist-tabDescs">
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'desc' %}
+            <div>
+              <div class="recipelist-tabDesc" data-tabitem="{{block.settings.tab_item_id}}" data-enable-tab>{{block.settings.desc}}</div>            
+            </div>
+          {% endcase %}
+        {% endfor %}      
+      </div>
+      <div class="recipelist-tabWrap">
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'tab' %}
+            <div class="tab tab-{{forloop.index}} tabfeature {%if forloop.index == 1%}active{%endif%}" data-tab="{{block.settings.tabid}}">{{block.settings.tabname}}</div>
+          {% endcase %}
+        {% endfor %}
+      </div>      
+    </div>
+    {% if section.settings.calendar_app != blank %}
+    <div class="recipelist-tabRight">
+      <app-calendar id="proj_ixKN9mHUUrQkcaNGvz316"></app-calendar>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+
+<script>
+  window.addEventListener('load', function(){
+    let allTabParent = document.querySelectorAll('#shopify-section-{{section.id}} .tabfeature');
+    let allTabChild = document.querySelectorAll('[data-enable-tab]');
+    console.log(allTabChild)
+
+    allTabChild.forEach(function(tabchild){
+      if(tabchild.dataset.tabitem !== allTabParent[0].dataset.tab) {
+        tabchild.parentElement.style.display = 'none';
+      } else {
+        tabchild.parentElement.style.display = 'block';
+      }
+    })
+    allTabParent.forEach(function(tab){
+      tab.addEventListener('click', function(){
+        allTabParent.forEach(function(tab2){
+          tab2.classList.remove('active')
+        })
+        tab.classList.add('active')
+        allTabChild.forEach(function(tabchild){
+          if(tabchild.dataset.tabitem === tab.dataset.tab) {
+            tabchild.parentElement.style.display = 'block';
+          } else {
+            tabchild.parentElement.style.display = 'none';
+          }
+        })
+      })
+    })
+
+  })
+</script>
+ 
+ 
+{% schema %}
+{
+  "name": "Recipe List Tab",
+  "class": "section section-recipelist-tab",
+  "settings": [
+    {
+      "type": "html",
+      "id": "calendar_app",
+      "label": "Enter Calendar Embedded Link",
+      "info": "Don't want? Keep blank!",
+      "default": "<app-calendar id=\"proj_ixKN9mHUUrQkcaNGvz316\" style=\"max-width: 100%;\"></app-calendar>"
+    },
+    {
+      "type": "color",
+      "id": "section_bg_color",
+      "label": "Section BG Color"
+    },
+    {
+      "type": "image_picker",
+      "id": "img",
+      "label": "Choose section image"
+    },
+    {
+      "type": "url",
+      "id": "btn_1_url",
+      "label": "Button 1 Url"
+    },
+    {
+      "type": "text",
+      "id": "btn_1_label",
+      "label": "Button 1 Label",
+      "default": "ORDER ONLINE"
+    },
+    {
+      "type": "checkbox",
+      "id": "button_1_newtab",
+      "label": "Open this link in new tab."
+    },
+    {
+      "type": "url",
+      "id": "btn_2_url",
+      "label": "Button 2 Url"
+    },
+    {
+      "type": "text",
+      "id": "btn_2_label",
+      "label": "Button 2 Label",
+      "default": "PRINT TRUCK MENU"
+    },
+    {
+      "type": "checkbox",
+      "id": "button_2_newtab",
+      "label": "Open this link in new tab."
+    },
+    {
+      "type": "header",
+      "content": "Section Margin/Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Tab",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tabname",
+          "label": "Tab Name",
+          "default": "The Buttz Truck"
+        },
+        {
+          "type": "text",
+          "id": "tabid",
+          "label": "Tab ID",
+          "info": "Enter the id of the sections below that you want to hide/show depending of this tab being clicked. Id shall be found from that section's customizer (if there is any)."
+        }
+      ]
+    },
+    {
+      "type": "desc",
+      "name": "Description",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "desc",
+          "label": "Tab Description",
+          "default": "<p>BBQ so GOOD, PIGS are DYING to GET SMOKED!!</p>"
+        },
+        {
+          "type": "text",
+          "id": "tab_item_id",
+          "label": "Tab Item ID",
+          "info": "Enter the id of the tabs for hide/show feature. Id shall be found from tab's block (if there is any)."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Recipe List Tab",
+      "category": "Custom Item"
+    }
+  ]
+}
+{% endschema %}

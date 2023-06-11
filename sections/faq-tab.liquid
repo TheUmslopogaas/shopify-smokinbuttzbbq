@@ -1,0 +1,145 @@
+{%- style -%}
+
+  {% if section.settings.section_bg_color != blank %}
+    #shopify-section-{{ section.id }} {
+      background-color: {{section.settings.section_bg_color}};
+    }
+  {% endif %}
+
+  /* Sectoin Dynamic Spcing */
+  #shopify-section-{{ section.id }} {
+    margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+    margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 750px) {
+    #shopify-section-{{ section.id }} {
+      margin-top: {{ section.settings.margin_top }}px;
+      margin-bottom: {{ section.settings.margin_bottom }}px;
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+
+<div class="page-width">
+  <div class="faq-tabWrap">
+    {% for block in section.blocks %}
+      <div class="tab tab-{{forloop.index}} tabfeature {%if forloop.index == 1%}active{%endif%}" data-tab="{{block.settings.tabid}}">{{block.settings.tabname}}</div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  window.addEventListener('load', function(){
+    let allTabParent = document.querySelectorAll('#shopify-section-{{section.id}} .tabfeature');
+    let allTabChild = document.querySelectorAll('[data-enable-tab]');
+    console.log(allTabChild)
+
+    allTabChild.forEach(function(tabchild){
+      if(tabchild.dataset.tabitem !== allTabParent[0].dataset.tab) {
+        tabchild.parentElement.style.display = 'none';
+      } else {
+        tabchild.parentElement.style.display = 'block';
+      }
+    })
+    allTabParent.forEach(function(tab){
+      tab.addEventListener('click', function(){
+        allTabParent.forEach(function(tab2){
+          tab2.classList.remove('active')
+        })
+        tab.classList.add('active')
+        allTabChild.forEach(function(tabchild){
+          if(tabchild.dataset.tabitem === tab.dataset.tab) {
+            tabchild.parentElement.style.display = 'block';
+          } else {
+            tabchild.parentElement.style.display = 'none';
+          }
+        })
+      })
+    })
+
+  })
+</script>
+ 
+ 
+{% schema %}
+{
+  "name": "FAQ Tab",
+  "class": "section section-faq-tab",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Margin/Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Tab",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tabname",
+          "label": "Tab Name",
+          "default": "The Truck"
+        },
+        {
+          "type": "text",
+          "id": "tabid",
+          "label": "Tab ID",
+          "info": "Enter the id of the sections below that you want to hide/show depending of this tab being clicked. Id shall be found from that section's customizer (if there is any)."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "FAQ Tab",
+      "category": "Custom Item"
+    }
+  ]
+}
+{% endschema %}

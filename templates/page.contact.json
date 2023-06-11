@@ -1,0 +1,135 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f8e955d5-3216-447b-a5bf-c84bedfb00f5": {
+      "type": "multi-component",
+      "blocks": {
+        "799be59e-5bcb-41ba-8c31-4162fa937503": {
+          "type": "title",
+          "settings": {
+            "title": "<p><strong>THE BUTTZ TRUCK<\/strong><\/p>",
+            "title_color": "#000000",
+            "title_bg_color": ""
+          }
+        },
+        "911f3a80-df2e-4532-a31c-9668ce0e7ff4": {
+          "type": "title",
+          "settings": {
+            "title": "<p>MIDDLE TENNESSEE AREA<\/p>",
+            "title_color": "#000000",
+            "title_bg_color": ""
+          }
+        },
+        "ff48cb4a-fb3d-4675-8bd3-64359fde11c7": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/truck_bbq_Transparent_1_1.jpg",
+            "img_width": 600
+          }
+        },
+        "f07bf454-22f9-4e79-a9e9-b45dfee9e302": {
+          "type": "btns",
+          "settings": {
+            "btn_url_1": "shopify:\/\/pages\/truck-schedule",
+            "btn_label_1": "FIND THE TRUCK",
+            "btn_1_outline": false,
+            "btn_url_2": "shopify:\/\/pages\/request-the-truck",
+            "btn_label_2": "BOOK THE TRUCK",
+            "btn_2_outline": false
+          }
+        },
+        "25406895-9e6a-4022-9a39-3b56487116e0": {
+          "type": "title",
+          "settings": {
+            "title": "<p><strong>Follow the Buttz Truck<\/strong><\/p>",
+            "title_color": "#ffffff",
+            "title_bg_color": "#d90707"
+          }
+        }
+      },
+      "block_order": [
+        "799be59e-5bcb-41ba-8c31-4162fa937503",
+        "911f3a80-df2e-4532-a31c-9668ce0e7ff4",
+        "ff48cb4a-fb3d-4675-8bd3-64359fde11c7",
+        "f07bf454-22f9-4e79-a9e9-b45dfee9e302",
+        "25406895-9e6a-4022-9a39-3b56487116e0"
+      ],
+      "settings": {
+        "section_bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "eeb5a59a-8b24-49e6-870a-2f48f7bdef54": {
+      "type": "multi-component",
+      "blocks": {
+        "ea9fcbba-5afc-4abb-b93d-e5ee8bb9141a": {
+          "type": "calendar",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "ea9fcbba-5afc-4abb-b93d-e5ee8bb9141a"
+      ],
+      "settings": {
+        "section_bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "5f6069b3-85ef-422e-ad6b-a7dcbb116fa8": {
+      "type": "banner-slider",
+      "blocks": {
+        "template--18974198366488__5f6069b3-85ef-422e-ad6b-a7dcbb116fa8-168463698058c30e11-2": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/1be905_da2c7f64813f4bf28084dd6766e3f759_mv2_1_1.jpg",
+            "pretitle": "",
+            "pretitle_color": "#d90707",
+            "title": "",
+            "title_color": "#ffffff",
+            "desc": "",
+            "desc_color": "#111111",
+            "btn_url_1": "shopify:\/\/pages\/menu",
+            "btn_label_1": "VIEW MENU",
+            "btn_1_outline": false,
+            "btn_url_2": "",
+            "btn_label_2": "",
+            "btn_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18974198366488__5f6069b3-85ef-422e-ad6b-a7dcbb116fa8-168463698058c30e11-2"
+      ],
+      "settings": {
+        "use_desk_height": true,
+        "desk_height": 350,
+        "use_mbl_height": false,
+        "mbl_height": 400,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f8e955d5-3216-447b-a5bf-c84bedfb00f5",
+    "eeb5a59a-8b24-49e6-870a-2f48f7bdef54",
+    "5f6069b3-85ef-422e-ad6b-a7dcbb116fa8"
+  ]
+}

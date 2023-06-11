@@ -1,0 +1,390 @@
+{{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+
+  {% if section.settings.section_bg_color != blank %}
+    #shopify-section-{{ section.id }} {
+      background-color: {{section.settings.section_bg_color}};
+    }
+  {% endif %}
+    
+  {% if section.settings.form_field_bg != blank or section.settings.form_field_txt != blank %}
+    #shopify-section-{{ section.id }} .field__input {
+      background-color: {{section.settings.form_field_bg}};
+      color: {{ section.settings.form_field_txt }};
+    }
+    #shopify-section-{{ section.id }} .field__label {
+      color: {{ section.settings.form_field_txt }};
+    }
+  {% endif %}
+
+  /* Sectoin Dynamic Spcing */
+  #shopify-section-{{ section.id }} {
+    margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+    margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 750px) {
+    #shopify-section-{{ section.id }} {
+      margin-top: {{ section.settings.margin_top }}px;
+      margin-bottom: {{ section.settings.margin_bottom }}px;
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div>
+  <div class="contact custom-form page-width page-width--narrow section-{{ section.id }}-padding">
+    {%- if section.settings.heading != blank -%}
+      <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}">
+        {{ section.settings.heading }}
+      </h2>
+    {%- else -%}
+      <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
+    {%- endif -%}
+    {%- form 'contact', id: 'ContactForm', class: 'isolate' -%}
+      {%- if form.posted_successfully? -%}
+        <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
+          {% render 'icon-success' %}
+          {{ 'templates.contact.form.post_success' | t }}
+        </h2>
+      {%- elsif form.errors -%}
+        <div class="form__message">
+          <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>
+            {% render 'icon-error' %}
+            {{ 'templates.contact.form.error_heading' | t }}
+          </h2>
+        </div>
+        <ul class="form-status-list caption-large" role="list">
+          <li>
+            <a href="#BookingForm-email" class="link">
+              {{ form.errors.translated_fields.email | capitalize }}
+              {{ form.errors.messages.email }}
+            </a>
+          </li>
+        </ul>
+      {%- endif -%}
+
+      <div class="full-width-field">
+        <div class="field">
+          <input
+            class="field__input"
+            autocomplete="name"
+            type="text"
+            id="BookingForm-name"
+            name="contact[{{ 'templates.contact.form.name' | t }}]"
+            value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+            placeholder="{{ 'templates.contact.form.name' | t }}"
+            aria-required="true"
+            required
+          >
+          <label class="field__label" for="BookingForm-name">
+            {{ 'templates.contact.form.name' | t }}
+            <span aria-hidden="true">*</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="half-width-field">
+        <div class="field field--with-error">
+          <input
+            autocomplete="email"
+            type="email"
+            id="BookingForm-email"
+            class="field__input"
+            name="contact[email]"
+            spellcheck="false"
+            autocapitalize="off"
+            value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+            aria-required="true"
+            required
+            {% if form.errors contains 'email' %}
+              aria-invalid="true"
+              aria-describedby="BookingForm-email-error"
+            {% endif %}
+            placeholder="{{ 'templates.contact.form.email' | t }}"
+          >
+          <label class="field__label" for="BookingForm-email">
+            {{- 'templates.contact.form.email' | t }}
+            <span aria-hidden="true">*</span></label>
+          {%- if form.errors contains 'email' -%}
+            <small class="contact__field-error" id="BookingForm-email-error">
+              <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
+              <span class="form__message">
+                {%- render 'icon-error' -%}
+                {{- form.errors.translated_fields.email | capitalize }}
+                {{ form.errors.messages.email -}}
+              </span>
+            </small>
+          {%- endif -%}
+        </div>
+        <div class="field">
+          <input
+            type="tel"
+            id="BookingForm-phone"
+            class="field__input"
+            autocomplete="tel"
+            name="contact[{{ 'templates.contact.form.phone' | t }}]"
+            pattern="[0-9\-]*"
+            value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+            placeholder="{{ 'templates.contact.form.phone' | t }}"
+            aria-required="true"
+            required
+          >
+          <label class="field__label" for="BookingForm-phone">
+            {{ 'templates.contact.form.phone' | t }}
+            <span aria-hidden="true">*</span>
+          </label>
+        </div>        
+      </div>
+
+      <div class="half-width-field">
+        <div class="field">
+          <input
+            class="field__input"
+            type="date"
+            id="BookingForm-date"
+            name="contact[date_of_event]"
+            placeholder="Date Of Event"
+            aria-required="true"
+            required
+          >
+          <label class="field__label" for="BookingForm-date">
+            Date Of Event
+            <span aria-hidden="true">*</span>
+          </label>
+        </div>
+        <div class="field">
+          <input
+            class="field__input"
+            type="text"
+            id="BookingForm-startendtime"
+            name="contact[begin_&_end_time_of_event]"
+            placeholder="Begin & End Time Of Event"
+          >
+          <label class="field__label" for="BookingForm-startendtime">
+            Begin & End Time Of Event
+          </label>
+        </div>
+      </div>
+
+      <div class="full-width-field">
+        <div class="field">
+          <input
+            class="field__input"
+            type="text"
+            id="BookingForm-addressofevent"
+            name="contact[address_of_event]"
+            placeholder="Address Of Event"
+            required
+          >
+          <label class="field__label" for="BookingForm-addressofevent">
+            Address Of Event
+            <span aria-hidden="true">*</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="full-width-field">
+        <div class="field">
+          <input
+            class="field__input"
+            type="text"
+            id="BookingForm-city-state"
+            name="contact[city/state]"
+            placeholder="City/State"
+            aria-required="true"
+            required
+          >
+          <label class="field__label" for="BookingForm-city-state">
+            City/State
+            <span aria-hidden="true">*</span>
+          </label>
+        </div>
+      </div>            
+
+      <div class="full-width-field">
+        <div class="field">
+          <textarea 
+            class="field__input"
+            name="contact[brief_description_of_the_event]"
+            id="BookingForm-briefdesc"
+            cols="30" 
+            rows="10"
+            placeholder="Brief Description Of The Event"
+          ></textarea>
+          <label class="field__label" for="BookingForm-briefdesc">
+            Brief Description Of The Event
+          </label>
+        </div>
+      </div>
+
+      <div class="half-width-field">
+        <div class="field">
+          <input
+            class="field__input"
+            type="text"
+            id="BookingForm-guests"
+            name="contact[number_of_guests]"
+            placeholder="Number Of Guests"
+          >
+          <label class="field__label" for="BookingForm-guests">
+            Number Of Guests
+          </label>
+        </div>        
+        <div class="field dropdown-field">
+          <select class="field__input" name="contact[responsible_for_payment]" id="BookingForm-payment-responsible">
+            <option value="Nothing Selected">Responsible For Payment</option>
+            <option value="Attendees">Attendees</option>
+            <option value="Company/Organization">Company/Organization</option>
+          </select>
+        </div>
+      </div>
+      
+      <div class="full-width-field">
+        <div class="field dropdown-field">
+          <select class="field__input" name="contact[requested_service]" id="BookingForm-requested-service">
+            <option value="Nothing Selected">Requested Service</option>
+            <option value="Food Truck">Food Truck</option>
+            <option value="Buffet Style Catering">Buffet Style Catering</option>
+            <option value="Catering Drop-Off">Catering Drop-Off</option>
+          </select>
+        </div>        
+      
+      </div>
+      <div class="full-width-field">
+        <div class="field dropdown-field">
+          <select class="field__input" name="contact[how_did_you_hear_about_us?]" id="BookingForm-hear-us">
+            <option value="Nothing Selected">How did you hear about us?</option>
+            <option value="Referral">Referral</option>
+            <option value="Google">Google</option>
+            <option value="Nashville Food Truck Association">Nashville Food Truck Association</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>        
+      </div>
+      
+      <div class="full-width-field">
+        <div class="field dropdown-field">
+          <select class="field__input" name="contact[do_you_need_a_sweet_truck?]" id="BookingForm-sweet-truck">
+            <option value="Nothing Selected">Do you need a Sweet Truck?</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+        </div>        
+      </div>
+
+
+
+      <div class="contact__button">
+        <button type="submit" class="button">
+          {{ 'templates.contact.form.send' | t }}
+        </button>
+      </div>
+
+
+    {%- endform -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Truck Booking Form",
+  "tag": "section",
+  "class": "section section-bookthetruck-form",
+  "settings": [
+    {
+      "type": "color",
+      "id": "section_bg_color",
+      "label": "Section BG Color"
+    },
+    {
+      "type": "color",
+      "id": "form_field_bg",
+      "label": "Form Field Background Color"
+    },
+    {
+      "type": "color",
+      "id": "form_field_txt",
+      "label": "Form Field Text Color"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "Contact form",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "header",
+      "content": "Section Margin/Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Truck Booking Form"
+    }
+  ]
+}
+{% endschema %}

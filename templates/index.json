@@ -1,0 +1,247 @@
+{
+  "sections": {
+    "10ae6df3-da01-4d90-ba89-7882ffb02070": {
+      "type": "banner-slider",
+      "blocks": {
+        "template--18974198268184__10ae6df3-da01-4d90-ba89-7882ffb02070-168427059727b34ff7-2": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Update_3.webp",
+            "img_mbl": "shopify:\/\/shop_images\/sauce-on-it-mbl.jpg",
+            "img_overlay": 0,
+            "pretitle": "PUT SOME",
+            "pretitle_color": "#d90707",
+            "pretitle_custom_font_size": true,
+            "pretitle_font_size_d": 40,
+            "pretitle_font_size_m": 30,
+            "title": "SAUCE ON IT !!",
+            "title_color": "#ffffff",
+            "title_custom_font_size": true,
+            "title_font_size_d": 60,
+            "title_font_size_m": 40,
+            "desc": "",
+            "desc_color": "#111111",
+            "desc_custom_font_size": false,
+            "desc_font_size_d": 25,
+            "desc_font_size_m": 18,
+            "btn_url_1": "shopify:\/\/collections\/buttz-sauce",
+            "btn_label_1": "SHOP NOW",
+            "btn_1_outline": false,
+            "btn_url_2": "",
+            "btn_label_2": "",
+            "btn_2_outline": false
+          }
+        },
+        "template--18974198268184__10ae6df3-da01-4d90-ba89-7882ffb02070-168427059727b34ff7-0": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/1be905_a52ad80d4e78476d946eaa76d67e0a1f_mv2_f0af32b2-670c-4ef5-ba65-d95f4126179b.jpg",
+            "img_overlay": 0,
+            "pretitle": "IT'S ALL ABOUT",
+            "pretitle_color": "#d90707",
+            "pretitle_custom_font_size": false,
+            "pretitle_font_size_d": 40,
+            "pretitle_font_size_m": 30,
+            "title": "THE SMOKE",
+            "title_color": "#ffffff",
+            "title_custom_font_size": true,
+            "title_font_size_d": 60,
+            "title_font_size_m": 40,
+            "desc": "",
+            "desc_color": "#111111",
+            "desc_custom_font_size": true,
+            "desc_font_size_d": 25,
+            "desc_font_size_m": 18,
+            "btn_url_1": "shopify:\/\/pages\/menu",
+            "btn_label_1": "VIEW MENU",
+            "btn_1_outline": false,
+            "btn_url_2": "",
+            "btn_label_2": "",
+            "btn_2_outline": false
+          }
+        },
+        "template--18974198268184__10ae6df3-da01-4d90-ba89-7882ffb02070-168427059727b34ff7-1": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/68d746_269996f839a140c1b88a3d9d54d24368_mv2_d_3000_2349_s_2_1c84d913-e20b-43e8-92f4-90da9abd551e.webp",
+            "img_overlay": 0,
+            "pretitle": "CHECK OUT",
+            "pretitle_color": "#d90707",
+            "pretitle_custom_font_size": true,
+            "pretitle_font_size_d": 40,
+            "pretitle_font_size_m": 30,
+            "title": "OUR BUTTZ",
+            "title_color": "#ffffff",
+            "title_custom_font_size": true,
+            "title_font_size_d": 60,
+            "title_font_size_m": 40,
+            "desc": "",
+            "desc_color": "#111111",
+            "desc_custom_font_size": false,
+            "desc_font_size_d": 25,
+            "desc_font_size_m": 18,
+            "btn_url_1": "shopify:\/\/pages\/truck-schedule",
+            "btn_label_1": "FIND THE TRUCK",
+            "btn_1_outline": false,
+            "btn_url_2": "",
+            "btn_label_2": "",
+            "btn_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18974198268184__10ae6df3-da01-4d90-ba89-7882ffb02070-168427059727b34ff7-2",
+        "template--18974198268184__10ae6df3-da01-4d90-ba89-7882ffb02070-168427059727b34ff7-0",
+        "template--18974198268184__10ae6df3-da01-4d90-ba89-7882ffb02070-168427059727b34ff7-1"
+      ],
+      "settings": {
+        "use_desk_height": true,
+        "desk_height": 500,
+        "use_mbl_height": true,
+        "mbl_height": 250,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "9d3a2318-1913-4ba8-815e-6b2f9e609d70": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "FEATURED PRODUCTS",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "buttz-sauce",
+        "products_to_show": 7,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "dd898b6a-59e6-4bbe-ac0f-4f19a74e6573": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18974198268184__dd898b6a-59e6-4bbe-ac0f-4f19a74e6573-1684017617b0a58055-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Smokin' Buttz Food Truck provides Middle Tennessee with some of the best slow smoked BBQ around town. <\/p><p><\/p><p>Our meats are smoked to perfection for hours upon hours and fall right off the bone. Sides are homemade and made fresh daily. Just put a little of our homemade Big Jr’s Buttz Sauce or Big Jr’s Smokin’ White Sauce on any of our meats and it will leave you wanting more.  Smokin’ Buttz “ BBQ So GOOD, PIGS ARE DYING TO GET SMOKED!!!! <\/p><p><a href=\"\/pages\/the-truck\" title=\"\/pages\/the-truck\"><span style=\"text-decoration:underline\">Click here<\/span><\/a> to find out where the Buttz Truck will be next in Middle Tennessee!!<\/p>",
+            "text_style": "shrinked",
+            "use_custom_color": false,
+            "custom_color": "#222222"
+          }
+        },
+        "dad524e6-9305-45ef-9644-44b5e4d3055b": {
+          "type": "button",
+          "settings": {
+            "button_label": "FIND THE TRUCK",
+            "button_link": "shopify:\/\/pages\/truck-schedule",
+            "button_newtab": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_2_newtab": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18974198268184__dd898b6a-59e6-4bbe-ac0f-4f19a74e6573-1684017617b0a58055-1",
+        "dad524e6-9305-45ef-9644-44b5e4d3055b"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Music_City_Must_Smokin_Buttz_BBQ_s_Gut_Buster_b536e2e6-bc67-4d69-b51a-f5bf5fc68805.png",
+        "img_url": "https:\/\/www.facebook.com\/newschannel5\/videos\/10155154533562548\/",
+        "img_border": true,
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_contain": true,
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 60,
+        "padding_bottom": 40
+      }
+    },
+    "6dc5ce4d-5e36-41bd-8ef8-e7911784b4c1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18910755291416__6dc5ce4d-5e36-41bd-8ef8-e7911784b4c1-168481644577f827b4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>FOLLOW US ON INSTAGRAM<\/strong>",
+            "heading_size": "h1",
+            "use_custom_color": true,
+            "custom_color": "#d90707"
+          }
+        },
+        "3cc815d0-c355-4026-a1df-6d2c4015be86": {
+          "type": "button",
+          "settings": {
+            "button_label": "@smokinbuttz",
+            "button_link": "https:\/\/www.instagram.com\/SmokinButtz\/",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18910755291416__6dc5ce4d-5e36-41bd-8ef8-e7911784b4c1-168481644577f827b4-0",
+        "3cc815d0-c355-4026-a1df-6d2c4015be86"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1684017453e0c710b1": {
+      "type": "apps",
+      "blocks": {
+        "56c8efcd-41d5-4b05-9d20-20c3a74ffbf7": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "56c8efcd-41d5-4b05-9d20-20c3a74ffbf7"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "10ae6df3-da01-4d90-ba89-7882ffb02070",
+    "9d3a2318-1913-4ba8-815e-6b2f9e609d70",
+    "dd898b6a-59e6-4bbe-ac0f-4f19a74e6573",
+    "6dc5ce4d-5e36-41bd-8ef8-e7911784b4c1",
+    "1684017453e0c710b1"
+  ]
+}

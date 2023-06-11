@@ -1,0 +1,65 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "394d6b5d-8ce7-42b0-bd41-9b49e9c49259": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/footer-logo.png",
+            "image_width": 240,
+            "alignment": ""
+          }
+        },
+        "7af9f3ea-abcb-4118-9f27-499479787e16": {
+          "type": "email",
+          "settings": {
+            "email_txt": "If you really want the scoop, sign up below for our newsletter to get all the ~(hottest news)~ and a ~(free birthday sandwich)~ during your birthday month!",
+            "email_social": true
+          }
+        },
+        "eec725dc-7d39-4918-b135-7aa7b9d2ca51": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick Link",
+            "menu": "footer"
+          }
+        },
+        "62ca9f7b-d33e-47a4-a762-e9f28fc6a4b7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/footer-logo_0ec8ded0-08a3-4753-b325-00f3590fd72e.png",
+            "image_width": 160,
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "394d6b5d-8ce7-42b0-bd41-9b49e9c49259",
+        "7af9f3ea-abcb-4118-9f27-499479787e16",
+        "eec725dc-7d39-4918-b135-7aa7b9d2ca51",
+        "62ca9f7b-d33e-47a4-a762-e9f28fc6a4b7"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "top_img": "shopify:\/\/shop_images\/Fire-Flame-Transparent-Background.png",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 100,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

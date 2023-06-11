@@ -1,0 +1,201 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "911b219c-897c-41d7-9708-fb74e82d6b38": {
+      "type": "banner-slider",
+      "blocks": {
+        "template--19017693331736__911b219c-897c-41d7-9708-fb74e82d6b38-1684587151320bb53b-0": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/catering-bg-overlayed.jpg",
+            "pretitle": "",
+            "pretitle_color": "#d90707",
+            "pretitle_custom_font_size": false,
+            "pretitle_font_size_d": 40,
+            "pretitle_font_size_m": 30,
+            "title": "QUICK. EASY.TASTY.",
+            "title_color": "#ffffff",
+            "title_custom_font_size": true,
+            "title_font_size_d": 60,
+            "title_font_size_m": 40,
+            "desc": "",
+            "desc_color": "#111111",
+            "desc_custom_font_size": false,
+            "desc_font_size_d": 25,
+            "desc_font_size_m": 18,
+            "btn_url_1": "",
+            "btn_label_1": "",
+            "btn_1_outline": false,
+            "btn_url_2": "",
+            "btn_label_2": "",
+            "btn_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693331736__911b219c-897c-41d7-9708-fb74e82d6b38-1684587151320bb53b-0"
+      ],
+      "settings": {
+        "use_desk_height": true,
+        "desk_height": 200,
+        "use_mbl_height": true,
+        "mbl_height": 250,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "e153c6c0-0e23-41e2-8b56-ce610b3cf1e6": {
+      "type": "multi-component",
+      "blocks": {
+        "template--19017693331736__e153c6c0-0e23-41e2-8b56-ce610b3cf1e6-16845873210f1d0eaf-0": {
+          "type": "desc",
+          "settings": {
+            "desc": "<p>Having an office meeting and need a quick lunch? Let Smokin’ Buttz help. We offer boxed lunches for delivery (36-hour advance notice required). Delivery fee will apply. 50% non-refundable down-payment due for boxed lunches.<br\/>​<br\/>~(Minimum order of $200.00 required for delivery)~<br\/>Email <a href=\"mailto:catering@smokinbuttzbbq.com\" title=\"mailto:catering@smokinbuttzbbq.com\">catering@smokinbuttzbbq.com<\/a> to place order<br\/>Boxed Lunch Options:<br\/>All lunch options are $13<\/p>",
+            "content_alignment": "text-center"
+          }
+        },
+        "3027f3ab-6557-496c-aabf-7351e89d1ef6": {
+          "type": "list",
+          "settings": {
+            "list_count": "1",
+            "list_desc": "<p>Pulled Pork Sandwich, Mesquite Coleslaw, Chips and a Chocolate Chip Cookie<br\/>*served with BBQ Sauce<\/p>"
+          }
+        },
+        "5012cdfc-26b7-49e6-b654-45b687dc0ee5": {
+          "type": "list",
+          "settings": {
+            "list_count": "2",
+            "list_desc": "<p>Pulled Chicken Sandwich, Mesquite Coleslaw, Chips and a Chocolate Chip Cookie<br\/>*served with BBQ Sauce<\/p>"
+          }
+        },
+        "0c46482e-276f-452b-a88e-53d1f2d7c6aa": {
+          "type": "btns",
+          "settings": {
+            "btn_url_1": "mailto:catering@smokinbuttzbbq.com",
+            "btn_label_1": "EMAIL TO ORDER NOW!",
+            "btn_1_outline": false,
+            "btn_url_2": "",
+            "btn_label_2": "",
+            "btn_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693331736__e153c6c0-0e23-41e2-8b56-ce610b3cf1e6-16845873210f1d0eaf-0",
+        "3027f3ab-6557-496c-aabf-7351e89d1ef6",
+        "5012cdfc-26b7-49e6-b654-45b687dc0ee5",
+        "0c46482e-276f-452b-a88e-53d1f2d7c6aa"
+      ],
+      "settings": {
+        "section_bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "0b47305d-dc6e-43aa-80fd-480915b55b82": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "template--19017693331736__0b47305d-dc6e-43aa-80fd-480915b55b82-1684587638b3fb1c0d-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/burger.jpg",
+            "title": "",
+            "title_color": "",
+            "title_bg_color": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19017693331736__0b47305d-dc6e-43aa-80fd-480915b55b82-1684587638b3fb1c0d-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/burger.jpg",
+            "title": "",
+            "title_color": "",
+            "title_bg_color": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693331736__0b47305d-dc6e-43aa-80fd-480915b55b82-1684587638b3fb1c0d-0",
+        "template--19017693331736__0b47305d-dc6e-43aa-80fd-480915b55b82-1684587638b3fb1c0d-1"
+      ],
+      "settings": {
+        "title": "",
+        "tab_item_id": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "d7eee05b-8e9e-4538-bd28-c3eaf122fd06": {
+      "type": "images",
+      "blocks": {
+        "template--19017693331736__d7eee05b-8e9e-4538-bd28-c3eaf122fd06-1685135858dd31bf58-0": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Smokin_Buttz--8_1d080523-d796-4f80-95c2-4916d6efb182.jpg",
+            "img_cover": false,
+            "img_gap": true
+          }
+        },
+        "793e8195-da16-4828-bdf7-d39385933ca6": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Smokin_Buttz_91788858-2bd2-4c06-b344-1f8d78240d15.jpg",
+            "img_cover": false,
+            "img_gap": true
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693331736__d7eee05b-8e9e-4538-bd28-c3eaf122fd06-1685135858dd31bf58-0",
+        "793e8195-da16-4828-bdf7-d39385933ca6"
+      ],
+      "settings": {
+        "section_bg_color": "#d90707",
+        "title": "",
+        "slide_imgs": false,
+        "full_width": false,
+        "col_count": "50",
+        "padding_top": 40,
+        "padding_bottom": 24,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "911b219c-897c-41d7-9708-fb74e82d6b38",
+    "e153c6c0-0e23-41e2-8b56-ce610b3cf1e6",
+    "0b47305d-dc6e-43aa-80fd-480915b55b82",
+    "d7eee05b-8e9e-4538-bd28-c3eaf122fd06"
+  ]
+}

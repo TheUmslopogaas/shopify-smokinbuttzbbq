@@ -1,0 +1,187 @@
+{%- style -%}
+
+  {% if section.settings.section_bg_color != blank %}
+    #shopify-section-{{ section.id }} {
+      background-color: {{section.settings.section_bg_color}};
+    }
+  {% endif %}
+  #shopify-section-{{ section.id }} .col-single {
+    width: {{ section.settings.col_count }}%;
+  }
+
+  /* Sectoin Dynamic Spcing */
+  #shopify-section-{{ section.id }} {
+    margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+    margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (max-width: 749px) {
+    #shopify-section-{{ section.id }} .col-single {
+      width: 50%;
+    }
+  }
+  @media screen and (min-width: 750px) {
+    #shopify-section-{{ section.id }} {
+      margin-top: {{ section.settings.margin_top }}px;
+      margin-bottom: {{ section.settings.margin_bottom }}px;
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+
+{% if section.settings.title != blank %}
+  <div class="page-width">
+    <h2 class="title">{{ section.settings.title | escape }}</h2>
+  </div>
+{% endif %}
+<div class="page-width">
+  <div class="multicol-custom-wrapper">
+    {% for block in section.blocks %}
+      <a href="{{block.settings.url}}" class="col-single">
+        <div class="col-single-wrap">
+          <div class="col-img">
+            <img src="{{ block.settings.img | img_url: 'master' }}" loading="lazy">
+          </div>
+          {% if block.settings.title != blank %}
+            <div class="col-title">{{ block.settings.title }}</div>
+          {% endif %}
+          {% if block.settings.date != blank %}
+            <div class="col-date">{{ block.settings.date }}</div>
+          {% endif %}
+          {% if block.settings.read_more %}
+            <p class="col-readmore">Read More</p>
+          {% endif %}
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+
+
+{% schema %}
+{
+  "name": "Multicolumn Custom",
+  "class": "section section-multicol-custom",
+  "settings": [
+    {
+      "type": "color",
+      "id": "section_bg_color",
+      "label": "Section BG Color"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "NEWS & PRESS"
+    },
+    {
+      "type": "select",
+      "id": "col_count",
+      "options": [
+        {"value": "100","label": "1"},
+        {"value": "50","label": "2"},
+        {"value": "33.33","label": "3"},
+        {"value": "25","label": "4"}
+      ],
+      "default": "33.33",
+      "label": "Column Per Row (Desktop)"
+    },    
+    {
+      "type": "header",
+      "content": "Section Margin/Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "column",
+      "name": "Column",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Column Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Column Title",
+          "default": "Smokin' Buttz food truck to set up shop inside Murfreesboro Kroger"
+        },
+        {
+          "type": "text",
+          "id": "date",
+          "label": "Insert Date",
+          "info": "Don't want? Leave blank."
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Column Link"
+        },
+        {
+          "type": "checkbox",
+          "id": "read_more",
+          "label": "Show Read More",
+          "default": false
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Multicolumn Custom",
+      "category": "Column",
+      "blocks": [
+        {"type": "column"},
+        {"type": "column"},
+        {"type": "column"},
+        {"type": "column"}
+      ]
+    }
+  ]
+}
+{% endschema %}

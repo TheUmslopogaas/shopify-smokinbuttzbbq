@@ -1,0 +1,279 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "9146d9cb-2b40-4e4b-88d1-2434d94b8718": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "template--19017693757720__9146d9cb-2b40-4e4b-88d1-2434d94b8718-1684325064b21d351b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Where to find Mimi Jo's Fruit Tea",
+            "heading_size": "h1"
+          }
+        },
+        "template--19017693757720__9146d9cb-2b40-4e4b-88d1-2434d94b8718-1684325064b21d351b-1": {
+          "type": "text",
+          "settings": {
+            "text": "Looking for fruit tea vendors that carry Mimi Jo’s Fruit Tea?Well, bless your heart. Look no further!Below is a list of locations where Mimi Jo’s can be found.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693757720__9146d9cb-2b40-4e4b-88d1-2434d94b8718-1684325064b21d351b-0",
+        "template--19017693757720__9146d9cb-2b40-4e4b-88d1-2434d94b8718-1684325064b21d351b-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/retailers-bg.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "13c6af53-9b4e-44c0-bcda-eb0d765e788a": {
+      "type": "banner-slider",
+      "blocks": {
+        "template--19017693757720__13c6af53-9b4e-44c0-bcda-eb0d765e788a-1684325710ef9f0b30-0": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Smokin_ButtzWhiteOut22023CC-17_2.jpg",
+            "img_mbl": "shopify:\/\/shop_images\/Update_1.webp",
+            "img_overlay": 0,
+            "pretitle": "RETAILERS",
+            "pretitle_color": "#ffffff",
+            "pretitle_custom_font_size": true,
+            "pretitle_font_size_d": 69,
+            "pretitle_font_size_m": 30,
+            "title": "",
+            "title_color": "#121212",
+            "title_custom_font_size": false,
+            "title_font_size_d": 60,
+            "title_font_size_m": 40,
+            "desc": "",
+            "desc_color": "#ffffff",
+            "desc_custom_font_size": false,
+            "desc_font_size_d": 25,
+            "desc_font_size_m": 18,
+            "btn_url_1": "",
+            "btn_label_1": "",
+            "btn_1_outline": false,
+            "btn_url_2": "",
+            "btn_label_2": "",
+            "btn_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693757720__13c6af53-9b4e-44c0-bcda-eb0d765e788a-1684325710ef9f0b30-0"
+      ],
+      "settings": {
+        "use_desk_height": true,
+        "desk_height": 600,
+        "use_mbl_height": true,
+        "mbl_height": 250,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "f14352db-3663-4021-a177-2eec327085ac": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19017650372888__f14352db-3663-4021-a177-2eec327085ac-1685249715a448ddbb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Grab our Sauces at the following Retailers and Farmers Markets <\/strong>",
+            "heading_size": "h1",
+            "use_custom_color": true,
+            "custom_color": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "template--19017650372888__f14352db-3663-4021-a177-2eec327085ac-1685249715a448ddbb-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "3edbaa24-3915-4f1f-9251-65b2d0a7afbc": {
+      "type": "accordion",
+      "blocks": {
+        "75bdb397-9322-46f8-81d3-02933440e808": {
+          "type": "accordion",
+          "settings": {
+            "question": "California",
+            "answer": "<p>Epicurus Gourmet | North, Hollywood, CA<\/p>",
+            "color": "#d90707",
+            "color_txt": "#ffffff",
+            "fb": "",
+            "twitter": ""
+          }
+        },
+        "421c329d-526d-485c-bc92-2db5ad0bb15e": {
+          "type": "accordion",
+          "settings": {
+            "question": "Tennessee",
+            "answer": "<p>Murphy’s Cee Bee | Charlotte, TN  <\/p><p>Food Saver | Fairview, TN <\/p><p>Basement Marketplace | Mt Juliet, TN <\/p><p>Murfreesboro Saturday Market | Murfreesboro, TN <\/p><p>Eco Travel Plaza | Crossville, TN <\/p><p>Nolensville Farmers Market | Nolensville TN <\/p><p>Market Wagon (Nashville) <\/p><p>One Shop Nashville | Nashville TN<\/p>",
+            "color": "#d90707",
+            "color_txt": "#ffffff",
+            "fb": "",
+            "twitter": ""
+          }
+        },
+        "template--19017693757720__3edbaa24-3915-4f1f-9251-65b2d0a7afbc-168432956127679480-3": {
+          "type": "accordion",
+          "settings": {
+            "question": "Kentucky",
+            "answer": "<p>coming<br\/>soon <\/p>",
+            "color": "#5d5d5d",
+            "color_txt": "#ffffff",
+            "fb": "",
+            "twitter": ""
+          }
+        },
+        "3b045822-3ccf-4a00-af30-76c2c5a2d7b7": {
+          "type": "accordion",
+          "settings": {
+            "question": "Georgia",
+            "answer": "<p>coming<br\/>soon <\/p>",
+            "color": "#f33e3e",
+            "color_txt": "#ffffff",
+            "fb": "",
+            "twitter": ""
+          }
+        },
+        "726ccc39-3256-4c07-b510-6b66227f21f9": {
+          "type": "accordion",
+          "settings": {
+            "question": "Alabama",
+            "answer": "<p>coming<br\/>soon <\/p>",
+            "color": "#000000",
+            "color_txt": "#ffffff",
+            "fb": "",
+            "twitter": ""
+          }
+        }
+      },
+      "block_order": [
+        "75bdb397-9322-46f8-81d3-02933440e808",
+        "421c329d-526d-485c-bc92-2db5ad0bb15e",
+        "template--19017693757720__3edbaa24-3915-4f1f-9251-65b2d0a7afbc-168432956127679480-3",
+        "3b045822-3ccf-4a00-af30-76c2c5a2d7b7",
+        "726ccc39-3256-4c07-b510-6b66227f21f9"
+      ],
+      "settings": {
+        "section_bg_color": "",
+        "title": "",
+        "round": true,
+        "border": false,
+        "tab_item_id": "",
+        "col_count": "33.33",
+        "padding_top": 20,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "b573b458-13b7-4151-9592-39f6e7d354b9": {
+      "type": "address-list",
+      "blocks": {
+        "template--19017693757720__b573b458-13b7-4151-9592-39f6e7d354b9-16844166739ce0c763-0": {
+          "type": "text",
+          "settings": {
+            "title": "Now Available At...",
+            "desc": ""
+          }
+        },
+        "template--19017693757720__b573b458-13b7-4151-9592-39f6e7d354b9-16844166739ce0c763-1": {
+          "type": "address",
+          "settings": {
+            "location_add": "Nashville, TN",
+            "location_name": "",
+            "add_desc": "<p><a href=\"https:\/\/flynashville.com\/\"><strong>Nashville International Airport<\/strong><\/a><\/p><p>The Tennessee Tribune Store located at Concourse C<br\/>near the Southwest Airlines Terminal inside BNA.<\/p><p><\/p><p><\/p><p>The Tennessee Tribune Store located near the TSA Exit<br\/>at the A\/B Gates inside BNA.<\/p>"
+          }
+        },
+        "template--19017693757720__b573b458-13b7-4151-9592-39f6e7d354b9-16844166739ce0c763-2": {
+          "type": "address",
+          "disabled": true,
+          "settings": {
+            "location_add": "The Basement Marketplace",
+            "location_name": "",
+            "add_desc": "<p><strong>14625 Lebanon Rd. Suite FOld Hickory, TN 37138615-754-9500<\/strong><\/p><p><strong> Hours: Tues-Sat: (10am to 5pm) <\/strong><a href=\"https:\/\/www.jrsfoodland.com\/\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong> https:\/\/www.basement-marketplace.business.site<\/strong><\/span><\/a><\/p>"
+          }
+        },
+        "c90af1f7-b865-4ee9-a49f-f8cf338693db": {
+          "type": "address",
+          "disabled": true,
+          "settings": {
+            "location_add": "Market Wagon (Nashville) ",
+            "location_name": "",
+            "add_desc": "<p><strong>*Delivered to your front door every Tuesday* Order by 11:59 pm on Sundays <\/strong><\/p>"
+          }
+        },
+        "90eebdb7-6342-4268-a310-2e9ff0904930": {
+          "type": "address",
+          "disabled": true,
+          "settings": {
+            "location_add": "Retailers to add under TN",
+            "location_name": "",
+            "add_desc": "<p>Murphy's Cee Bee<br\/>3426 Hwy 48 N<br\/>Charlotte, TN 37036<br\/>615-789-5300<\/p>"
+          }
+        },
+        "18afc32e-c979-4d7a-8f07-051c4b4d3446": {
+          "type": "address",
+          "disabled": true,
+          "settings": {
+            "location_add": "Tennessee",
+            "location_name": "",
+            "add_desc": "<p><strong>Nashville BNA Airport<\/strong><\/p><p><strong>1 Terminal Dr.<\/strong><\/p><p><strong>(Near TSA Exit at A\/B Gates) <\/strong><\/p><p><strong>(Concourse C Near Southwest) <\/strong><\/p><p><strong>Nashville, TN 37214<\/strong><\/p><p><strong>Hours: Sun-Sat (4am to 12pm) <\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693757720__b573b458-13b7-4151-9592-39f6e7d354b9-16844166739ce0c763-0",
+        "template--19017693757720__b573b458-13b7-4151-9592-39f6e7d354b9-16844166739ce0c763-1",
+        "template--19017693757720__b573b458-13b7-4151-9592-39f6e7d354b9-16844166739ce0c763-2",
+        "c90af1f7-b865-4ee9-a49f-f8cf338693db",
+        "90eebdb7-6342-4268-a310-2e9ff0904930",
+        "18afc32e-c979-4d7a-8f07-051c4b4d3446"
+      ],
+      "settings": {
+        "section_bg_color": "rgba(0,0,0,0)",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "9146d9cb-2b40-4e4b-88d1-2434d94b8718",
+    "13c6af53-9b4e-44c0-bcda-eb0d765e788a",
+    "f14352db-3663-4021-a177-2eec327085ac",
+    "3edbaa24-3915-4f1f-9251-65b2d0a7afbc",
+    "b573b458-13b7-4151-9592-39f6e7d354b9"
+  ]
+}

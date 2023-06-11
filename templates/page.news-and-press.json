@@ -1,0 +1,177 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1d175b9d-3e32-4c8c-bad5-d3273ecaf632": {
+      "type": "multicol-custom",
+      "blocks": {
+        "template--19017693659416__1d175b9d-3e32-4c8c-bad5-d3273ecaf632-16846988718d9a513b-0": {
+          "type": "column",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/multicol-img1.jpg",
+            "title": "Smokin' Buttz food truck to set up shop inside Murfreesboro Kroger",
+            "date": "Oct. 3, 2019",
+            "url": "https:\/\/www.dnj.com\/story\/entertainment\/dining\/2019\/10\/03\/murfreesboro-kroger-smokin-buttz-bbq-restaurant\/3846330002\/",
+            "read_more": true
+          }
+        },
+        "template--19017693659416__1d175b9d-3e32-4c8c-bad5-d3273ecaf632-16846988718d9a513b-3": {
+          "type": "column",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/multicol-img4.jpg",
+            "title": "The Best Food Truck Cities in America",
+            "date": "",
+            "url": "https:\/\/www.delish.com\/food\/g29110679\/food-truck-cities\/",
+            "read_more": true
+          }
+        },
+        "template--19017693659416__1d175b9d-3e32-4c8c-bad5-d3273ecaf632-16846988718d9a513b-2": {
+          "type": "column",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/multicol-img3.jpg",
+            "title": "Music City Must:Smokin' Buttz Gut Buster",
+            "date": "",
+            "url": "https:\/\/www.facebook.com\/watch\/?v=10155154533562548",
+            "read_more": true
+          }
+        },
+        "template--19017693659416__1d175b9d-3e32-4c8c-bad5-d3273ecaf632-16846988718d9a513b-1": {
+          "type": "column",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/multicol-img2.jpg",
+            "title": "Black Owned BBQ Spots to try in Nashville",
+            "date": "",
+            "url": "https:\/\/urbaanite.com\/5-bbq-spots-to-get-into-this-summer-in-nashville\/",
+            "read_more": true
+          }
+        },
+        "224acd48-f2b7-4832-88f6-1d962b0a1526": {
+          "type": "column",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/bb788fb9-500e-4e27-ab54-6a44b30856a6-but_e109ab18-2a61-4acf-8d02-f13d558820d0.jpg",
+            "title": "Smokin' Buttz to debut inside Murfreesboro Kroger store this week",
+            "date": "Jan. 1, 2020",
+            "url": "https:\/\/www.dnj.com\/story\/entertainment\/dining\/2020\/01\/01\/smokin-buttz-kroger-murfreesboro-veterans-parkway-open\/2790775001\/",
+            "read_more": true
+          }
+        },
+        "f7bd7373-514d-49fb-a450-e580ed3f862e": {
+          "type": "column",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Smokn-Buttz.jpg",
+            "title": "Smokin' Buttz to open first brick and mortar inside local Kroger ",
+            "date": "",
+            "url": "https:\/\/murfreesboro.com\/smokin-buttz-open-first-brick-mortar-location\/",
+            "read_more": true
+          }
+        },
+        "7c54bd70-8bef-435e-bb0d-11d3ca7c514a": {
+          "type": "column",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/multicol-img3.jpg",
+            "title": "Bart Durham Injury Law firm offering free BBQ lunch to residents in North Nashville WZTV",
+            "date": "",
+            "url": "https:\/\/fox17.com\/news\/local\/bart-durham-injury-law-firm-offering-free-bbq-lunch-to-residents-in-north-nashville",
+            "read_more": true
+          }
+        },
+        "d89edabf-adf6-4a9e-9324-38950ee3a829": {
+          "type": "column",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Smokn-Buttz1591110880.jpg",
+            "title": "Local couple shares their story with WGNS Radio",
+            "date": "",
+            "url": "https:\/\/www.newsbreak.com\/news\/1576823868030\/local-couple-shares-their-story-on-becoming-smokin-buttz-bbq",
+            "read_more": true
+          }
+        },
+        "f6c79afc-c0fe-4499-8dbe-978ef8df9f7b": {
+          "type": "column",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/IMG-5289-1200x918.webp",
+            "title": "Music City Locals Love Smokin’ Buttz",
+            "date": "",
+            "url": "https:\/\/tntribune.com\/music-city-locals-love-smokin-buttz\/",
+            "read_more": true
+          }
+        }
+      },
+      "block_order": [
+        "template--19017693659416__1d175b9d-3e32-4c8c-bad5-d3273ecaf632-16846988718d9a513b-0",
+        "template--19017693659416__1d175b9d-3e32-4c8c-bad5-d3273ecaf632-16846988718d9a513b-3",
+        "template--19017693659416__1d175b9d-3e32-4c8c-bad5-d3273ecaf632-16846988718d9a513b-2",
+        "template--19017693659416__1d175b9d-3e32-4c8c-bad5-d3273ecaf632-16846988718d9a513b-1",
+        "224acd48-f2b7-4832-88f6-1d962b0a1526",
+        "f7bd7373-514d-49fb-a450-e580ed3f862e",
+        "7c54bd70-8bef-435e-bb0d-11d3ca7c514a",
+        "d89edabf-adf6-4a9e-9324-38950ee3a829",
+        "f6c79afc-c0fe-4499-8dbe-978ef8df9f7b"
+      ],
+      "settings": {
+        "section_bg_color": "",
+        "title": "NEWS & PRESS",
+        "col_count": "25",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "b33fe626-8141-450f-afde-2f35958a7ef0": {
+      "type": "multi-component",
+      "blocks": {
+        "880c73af-c439-4fe4-88c5-4ec6e42c39b2": {
+          "type": "title",
+          "settings": {
+            "title": "<p><strong>WANT TO CONNECT?<\/strong><\/p>",
+            "title_color": "#ffffff",
+            "title_bg_color": "#d90707"
+          }
+        },
+        "49974082-4d30-49f9-86fc-165b9e08ec82": {
+          "type": "social",
+          "settings": {
+            "fb_label": "Smokin' Buttz",
+            "fb_url": "",
+            "insta_label": "@smokinbuttz",
+            "insta_url": ""
+          }
+        },
+        "320d852c-2aa7-474a-99a8-3d2b7cd8d203": {
+          "type": "btns",
+          "settings": {
+            "btn_url_1": "",
+            "btn_label_1": "CONTACT US",
+            "btn_1_outline": false,
+            "btn_url_2": "",
+            "btn_label_2": "",
+            "btn_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "880c73af-c439-4fe4-88c5-4ec6e42c39b2",
+        "49974082-4d30-49f9-86fc-165b9e08ec82",
+        "320d852c-2aa7-474a-99a8-3d2b7cd8d203"
+      ],
+      "settings": {
+        "section_bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1d175b9d-3e32-4c8c-bad5-d3273ecaf632",
+    "b33fe626-8141-450f-afde-2f35958a7ef0"
+  ]
+}

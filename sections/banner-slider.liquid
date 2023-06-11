@@ -1,0 +1,437 @@
+{%- style -%}
+  /* Section Height */
+  {% if section.settings.use_desk_height == true %}
+    #shopify-section-{{ section.id }} .bs-slideItem {
+      min-height: {{section.settings.desk_height}}px;
+    }
+  {% endif %}
+  {% if section.settings.use_mbl_height == true %}
+    @media (max-width: 749px) {
+      #shopify-section-{{ section.id }} .bs-slideItem {
+        min-height: {{section.settings.mbl_height}}px;
+      }
+    }
+  {% endif %}
+
+  /* Section Dynamic Spacing */
+  #shopify-section-{{ section.id }} .page-width {
+    margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+    margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 750px) {
+    #shopify-section-{{ section.id }} .page-width {
+      margin-top: {{ section.settings.margin_top }}px;
+      margin-bottom: {{ section.settings.margin_bottom }}px;
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+{% assign slideCount = section.blocks | size %}
+
+<div class="banner-slider">
+  <div class="bs-slideItems swiper">
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+        <style>
+          #blockid-{{block.id}}::after {
+            background-color: rgba(0,0,0,0.{{block.settings.img_overlay}});
+          }
+          #blockid-{{block.id}} .bs-pretitle {color: {{block.settings.pretitle_color}};}
+          #blockid-{{block.id}} .bs-title {color: {{block.settings.title_color}};}
+          #blockid-{{block.id}} .bs-desc {color: {{block.settings.desc_color}};}
+          {% if block.settings.img != blank %}
+            #blockid-{{block.id}} {
+              background: url("{{block.settings.img | img_url: 'master'}}") center/cover no-repeat;
+            }
+          {% endif %}
+          {% if block.settings.img_mbl != blank %}
+            @media (max-width: 749px) {
+              #blockid-{{block.id}} {
+                background: url("{{block.settings.img_mbl | img_url: 'master'}}") center/cover no-repeat;
+              }              
+            }
+          {% endif %}
+          {% if block.settings.pretitle_custom_font_size == true %}
+            #blockid-{{block.id}} .bs-pretitle {
+              font-size: {{block.settings.pretitle_font_size_d}}px;
+            }
+            @media (max-width: 749px) {
+              #blockid-{{block.id}} .bs-pretitle {
+                font-size: {{block.settings.pretitle_font_size_m}}px;
+              }                
+            }
+          {% endif %}
+          {% if block.settings.title_custom_font_size == true %}
+            #blockid-{{block.id}} .bs-title {
+              font-size: {{block.settings.title_font_size_d}}px;
+            }
+            @media (max-width: 749px) {
+              #blockid-{{block.id}} .bs-title {
+                font-size: {{block.settings.title_font_size_m}}px;
+              }                
+            }
+          {% endif %}
+          {% if block.settings.desc_custom_font_size == true %}
+            #blockid-{{block.id}} .bs-desc {
+              font-size: {{block.settings.desc_font_size_d}}px;
+            }
+            @media (max-width: 749px) {
+              #blockid-{{block.id}} .bs-desc {
+                font-size: {{block.settings.desc_font_size_m}}px;
+              }                
+            }
+          {% endif %}
+        </style>        
+        <div class="bs-slideItem swiper-slide" id="blockid-{{block.id}}">
+          <div class="page-width">
+            {% if block.settings.logo_img != blank %}
+              <div class="bs-logoImg"><img src="{{block.settings.logo_img | img_url: 'master'}}" alt="" loading="lazy"></div>
+            {% endif %}
+            {% if block.settings.pretitle != blank %}
+              <div class="bs-pretitle">
+                {{block.settings.pretitle | replace: '~(', '<span style="color: #d90707">' | replace: ")~", "</span>"}}
+              </div>
+            {% endif %}
+            {% if block.settings.title != blank %}
+              <div class="bs-title">
+                {{block.settings.title | replace: '~(', '<span style="color: #d90707">' | replace: ")~", "</span>"}}
+              </div>
+            {% endif %}
+            {% if block.settings.desc != blank %}
+              <div class="bs-desc">
+                {{block.settings.desc | replace: '~(', '<span style="color: #d90707">' | replace: ")~", "</span>"}}
+              </div>
+            {% endif %}
+            <div class="bs-btns">
+              {% if block.settings.btn_label_1 != blank %}
+                <a href="{{block.settings.btn_url_1}}" class="custom-btn bs-customBtn {% if block.settings.btn_1_outline %}custom-btn-outlined{% endif %}">{{block.settings.btn_label_1}}</a>
+              {% endif %}
+              {% if block.settings.btn_label_2 != blank %}
+                <a href="{{block.settings.btn_url_2}}" class="custom-btn bs-customBtn {% if block.settings.btn_2_outline %}custom-btn-outlined{% endif %}">{{block.settings.btn_label_2}}</a>
+              {% endif %}            
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% if slideCount > 1 %}
+    <div class="swiper-button swiper-button-next"></div>
+    <div class="swiper-button swiper-button-prev"></div>
+    {% endif %}
+  </div>
+</div>
+
+
+
+{% if slideCount > 1 %}
+  <script>
+    {% assign swiperId = section.id | replace: '-', '' %}
+    var swiper_{{swiperId}} = new Swiper('#shopify-section-{{section.id}} .swiper', {
+      loop: true,
+      autoplay: true,
+      navigation: {
+        nextEl: "#shopify-section-{{section.id}} .swiper-button-next",
+        prevEl: "#shopify-section-{{section.id}} .swiper-button-prev",
+      }
+    });
+  </script>
+{% endif %}
+ 
+{% schema %}
+{
+  "name": "Banner Slider",
+  "class": "section section-banner-slider",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "use_desk_height",
+      "label": "Use custom height (Desktop)",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "desk_height",
+      "min": 100,
+      "max": 1200,
+      "step": 50,
+      "unit": "px",
+      "label": "Desktop Height",
+      "default": 500
+    },
+    {
+      "type": "checkbox",
+      "id": "use_mbl_height",
+      "label": "Use custom height (Mobile)",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "mbl_height",
+      "min": 50,
+      "max": 800,
+      "step": 50,
+      "unit": "px",
+      "label": "Mobile Height",
+      "default": 400
+    },
+    {
+      "type": "header",
+      "content": "Section Margin/Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Image Settings"
+        },        
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Slide Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "img_mbl",
+          "label": "Slide Image (Mobile)",
+          "info": "Keep it blank to use the desktop image in mobile devices."
+        },
+        {
+          "type": "range",
+          "id": "img_overlay",
+          "label": "Image Overlay",
+          "min": 0,
+          "max": 9,
+          "step": 1,
+          "default": 0
+        },
+        {
+          "type": "header",
+          "content": "Pretitle Settings"
+        },
+        {
+          "type": "text",
+          "id": "pretitle",
+          "label": "Slider Pre Title",
+          "default": "IT'S ALL ABOUT"
+        },
+        {
+          "type": "color",
+          "id": "pretitle_color",
+          "label": "Pre Title Color",
+          "default": "#D90707"
+        },
+        {
+          "type": "checkbox",
+          "id": "pretitle_custom_font_size",
+          "label": "Use Custom Font Size",
+          "default": false
+        },
+        {
+          "type": "range",
+          "id": "pretitle_font_size_d",
+          "min": 10,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Font Size (Desktop)",
+          "default": 40
+        },
+        {
+          "type": "range",
+          "id": "pretitle_font_size_m",
+          "min": 10,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Font Size (Mobile)",
+          "default": 30
+        },
+        {
+          "type": "header",
+          "content": "Title Settings"
+        },        
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Slider Title",
+          "default": "THE SMOKE"
+        },
+        {
+          "type": "color",
+          "id": "title_color",
+          "label": "Title Color",
+          "default": "#FFFFFF"
+        },
+        {
+          "type": "checkbox",
+          "id": "title_custom_font_size",
+          "label": "Use Custom Font Size",
+          "default": false
+        },
+        {
+          "type": "range",
+          "id": "title_font_size_d",
+          "min": 10,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Font Size (Desktop)",
+          "default": 60
+        },
+        {
+          "type": "range",
+          "id": "title_font_size_m",
+          "min": 10,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Font Size (Mobile)",
+          "default": 40
+        },        
+        {
+          "type": "header",
+          "content": "Description Settings"
+        },
+        {
+          "type": "richtext",
+          "id": "desc",
+          "label": "Slider Description",
+          "default": "<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ipsum architecto vero consectetur, maxime eum porro qui aperiam fugit eveniet.</p>"
+        },
+        {
+          "type": "color",
+          "id": "desc_color",
+          "label": "Description Color",
+          "default": "#111"
+        },
+        {
+          "type": "checkbox",
+          "id": "desc_custom_font_size",
+          "label": "Use Custom Font Size",
+          "default": false
+        },
+        {
+          "type": "range",
+          "id": "desc_font_size_d",
+          "min": 10,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Font Size (Desktop)",
+          "default": 25
+        },
+        {
+          "type": "range",
+          "id": "desc_font_size_m",
+          "min": 10,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Font Size (Mobile)",
+          "default": 18
+        },
+        {
+          "type": "header",
+          "content": "Buttons"
+        },        
+        {
+          "type": "url",
+          "id": "btn_url_1",
+          "label": "Button One URL"
+        },
+        {
+          "type": "text",
+          "id": "btn_label_1",
+          "label": "Button One Text",
+          "default": "VIEW MENU"
+        },
+        {
+          "type": "checkbox",
+          "id": "btn_1_outline",
+          "label": "Button One Outlined Style",
+          "default": false
+        },
+        {
+          "type": "url",
+          "id": "btn_url_2",
+          "label": "Button Two URL"
+        },
+        {
+          "type": "text",
+          "id": "btn_label_2",
+          "label": "Button Two Text"
+        },
+        {
+          "type": "checkbox",
+          "id": "btn_2_outline",
+          "label": "Button Two Outlined Style",
+          "default": false
+        },
+        {
+          "type": "image_picker",
+          "id": "logo_img",
+          "label": "Add Logo Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banner Slider",
+      "category": "Slide",
+      "blocks": [
+        {"type": "slide"},
+        {"type": "slide"},
+        {"type": "slide"}
+      ]
+    }
+  ]
+}
+{% endschema %}
